@@ -1,0 +1,66 @@
+[
+  {
+    "setting": "gaussian",
+    "feature_map": "performer",
+    "dim_m": 32,
+    "trial": 0,
+    "relerr_kernel": 7.554694286006587,
+    "n_pairs": 5000
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "performer",
+    "dim_m": 64,
+    "trial": 0,
+    "relerr_kernel": 57.78376253641194,
+    "n_pairs": 5000
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "performer",
+    "dim_m": 128,
+    "trial": 0,
+    "relerr_kernel": 38.842427806742975,
+    "n_pairs": 5000
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "performer",
+    "dim_m": 256,
+    "trial": 0,
+    "relerr_kernel": 3942.45349886177,
+    "n_pairs": 5000
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "performer",
+    "dim_m": 32,
+    "trial": 1,
+    "relerr_kernel": 3806.7502535512153,
+    "n_pairs": 5000
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "performer",
+    "dim_m": 64,
+    "trial": 1,
+    "relerr_kernel": 10.44236581008046,
+    "n_pairs": 5000
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "performer",
+    "dim_m": 128,
+    "trial": 1,
+    "relerr_kernel": 5.599961597676402,
+    "n_pairs": 5000
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "performer",
+    "dim_m": 256,
+    "trial": 1,
+    "relerr_kernel": 5.755242282678282,
+    "n_pairs": 5000
+  }
+]

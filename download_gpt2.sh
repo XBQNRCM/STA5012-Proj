@@ -1,0 +1,1 @@
+modelscope download --model openai-community/gpt2 --local_dir gpt2
