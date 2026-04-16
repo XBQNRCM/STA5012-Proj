@@ -3,7 +3,7 @@ from __future__ import annotations
 from collections.abc import Sequence
 
 import torch
-from modelscope.msdatasets import MsDataset
+from datasets import load_dataset
 from torch import nn
 from tqdm import tqdm
 from transformers import AutoModelForCausalLM, AutoTokenizer
@@ -29,7 +29,7 @@ def collect_qk_gpt2_wikitext(
     WikiText-2-raw-v1 文本过 frozen GPT-2，提取各层各 head 在 token_pos 处的 (q, k)。
     返回 [N, d_head], [N, d_head]。
     """
-    ds = MsDataset.load("wikitext", subset_name="wikitext-2-v1", split="train")
+    ds = load_dataset("wikitext", "wikitext-2-raw-v1", split="train")
     rows = [r["text"] for r in ds if r.get("text") and r["text"].strip()]
     tok = AutoTokenizer.from_pretrained(model_path)
 

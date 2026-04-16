@@ -5,3 +5,4 @@ datasets
 numpy
 matplotlib
 tqdm
+addict
