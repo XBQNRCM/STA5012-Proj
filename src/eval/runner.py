@@ -35,13 +35,21 @@ def _eval_loop(
     """对给定的 (q, k) 遍历实验组合：map × m × trial。"""
     n_pairs = q.shape[0]
     results: list[EvalResult] = []
+    max_m = max(dims_m)
 
+    # 嵌套截断：每个 (map, trial) 只采一次 omega_full，各 m 共用前缀；randn+generator 须在 CPU
     for imap, map_name in enumerate(map_names):
         for trial in range(n_trials):
+            g = torch.Generator(device="cpu")
+            g.manual_seed(seed + 10007 * trial + imap * 1009)
+            omega_full = torch.randn(max_m, dim_d, generator=g, device=torch.device("cpu"))
             for dim_m in dims_m:
-                g = torch.Generator(device=device)
-                g.manual_seed(seed + 10007 * trial + imap * 1009 + dim_m)
-                phi = build_feature_map(map_name, dim_d, dim_m, g)
+                phi = build_feature_map(
+                    map_name,
+                    dim_d,
+                    dim_m,
+                    omega=omega_full[:dim_m],
+                ).to(device)
                 err = relerr_kernel_pairs(q, k, phi, dim_d)
                 results.append(EvalResult(setting, map_name, dim_m, trial, err, n_pairs))
 
@@ -58,6 +66,7 @@ def run_gaussian(
     seed: int,
     device: torch.device,
 ) -> list[EvalResult]:
+    # 与 q,k 同 device 的 randn 要求 Generator 也在该 device（CPU/CUDA 各自匹配）
     gen = torch.Generator(device=device)
     gen.manual_seed(seed)
     q, k = sample_qk_gaussian(n_pairs, dim_d, generator=gen, device=device)

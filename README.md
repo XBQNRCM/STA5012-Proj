@@ -61,7 +61,7 @@ python plot_error_vs_dim.py outputs/gaussian_performer_.../results.json
 | `--maps`       | `performer`     | feature map 名，空格分隔，须在 `REGISTRY` 中注册 |
 | `--m`          | `32 64 128 256` | 特征维度 m，可传多个                          |
 | `--dim-d`      | `64`            | 输入维度 d（= GPT-2 head dim）             |
-| `--n-trials`   | `1`             | 对每个 (map, m) 独立重采样 omega 的次数         |
+| `--n-trials`   | `1`             | 每个 (map) 下随机特征矩阵重采样次数；同一 trial 内各 m 共用嵌套 ω 前缀 |
 | `--seed`       | `0`             | 随机种子                                 |
 | `--device`     | `cpu`           | `cpu` 或 `cuda`                       |
 | `--output-dir` | `outputs`       | 结果根目录                                |
@@ -121,7 +121,7 @@ python plot_error_vs_dim.py <results.json> [--layer N ...] [--head N ...] [--sav
 
 ## 如何扩展 Feature Map
 
-1. 在 `src/feature_maps/` 新建类，继承 `FeatureMap`，实现 `forward(self, x) -> Tensor`（`x: [..., d]` → `[..., m]`）。构造函数签名为 `(dim_d, dim_m, generator=None)`。
+1. 在 `src/feature_maps/` 新建类，继承 `FeatureMap`，实现 `forward(self, x) -> Tensor`（`x: [..., d]` → `[..., m]`）。`__init__` 建议写 `(self, dim_d, dim_m, **kwargs)`，吞掉 runner 可能传入的 `omega` 等；`PerformerFeatureMap` 会读取 `omega`、`generator`。
 2. 在 `src/feature_maps/__init__.py` 的 `REGISTRY` 中注册：
 
 ```python
@@ -131,12 +131,12 @@ REGISTRY: dict[str, type[FeatureMap]] = {
 }
 ```
 
-1. 命令行直接使用：`python run_eval.py --mode gaussian --maps performer my_map --m 64 128`
+3. 命令行直接使用：`python run_eval.py --mode gaussian --maps performer my_map --m 64 128`
 
 ---
 
 ## 备注
 
 - **float64 评测**：`relerr_kernel_pairs` 内部将 q, k 与 phi 转为 float64 后计算，避免 `exp(q·k/√d)` 在 float32 下溢出。
-- **每个 (trial, m) 独立采样 omega**：各实验组合使用确定性 seed（由 `seed + trial + map_index + m` 组合生成），结果可复现。
+- **嵌套 ω**：每个 `(map, trial)` 在 CPU 上采样一次 `omega_full[max(m), d]`，各 `m` 使用 `omega_full[:m]`，便于比较「增大 m」时的误差曲线；`phi` 再 `.to(device)` 与 q、k 对齐。
 

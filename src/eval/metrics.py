@@ -20,8 +20,9 @@ def relerr_kernel_pairs(
 ) -> float:
     """RelErr_ker = E[(K - Khat)^2] / E[K^2]，用样本均值估计。q, k: [N, d]。"""
     # 用 float64 避免 exp 溢出
+    dev = q.device
     q64, k64 = q.detach().double(), k.detach().double()
-    phi64 = phi.to(dtype=torch.float64)
+    phi64 = phi.to(device=dev, dtype=torch.float64)
 
     k_true = softmax_kernel(q64, k64, dim_d)
     k_hat = (phi64(q64) * phi64(k64)).sum(dim=-1)

@@ -1,0 +1,7202 @@
+[
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 16,
+    "trial": 0,
+    "relerr_kernel": 1.0000028171138517,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 24,
+    "trial": 0,
+    "relerr_kernel": 1.000001246790424,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 32,
+    "trial": 0,
+    "relerr_kernel": 1.0000015904070747,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 40,
+    "trial": 0,
+    "relerr_kernel": 1.0000010362704304,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 48,
+    "trial": 0,
+    "relerr_kernel": 1.0000008355917478,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 56,
+    "trial": 0,
+    "relerr_kernel": 1.0000006515294213,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 64,
+    "trial": 0,
+    "relerr_kernel": 1.0000005013558562,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 72,
+    "trial": 0,
+    "relerr_kernel": 1.0000004349992262,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 80,
+    "trial": 0,
+    "relerr_kernel": 1.000000479597604,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 16,
+    "trial": 1,
+    "relerr_kernel": 1.0000983544501636,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 24,
+    "trial": 1,
+    "relerr_kernel": 1.0000436909917543,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 32,
+    "trial": 1,
+    "relerr_kernel": 1.0000246513372708,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 40,
+    "trial": 1,
+    "relerr_kernel": 1.000015765051343,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 48,
+    "trial": 1,
+    "relerr_kernel": 1.0000109421001286,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 56,
+    "trial": 1,
+    "relerr_kernel": 1.0000080404691787,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 64,
+    "trial": 1,
+    "relerr_kernel": 1.0000061514747443,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 72,
+    "trial": 1,
+    "relerr_kernel": 1.0000048636648928,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 80,
+    "trial": 1,
+    "relerr_kernel": 1.000003935770629,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 16,
+    "trial": 2,
+    "relerr_kernel": 1.0000098404024769,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 24,
+    "trial": 2,
+    "relerr_kernel": 1.0000064956579233,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 32,
+    "trial": 2,
+    "relerr_kernel": 1.0000038913363893,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 40,
+    "trial": 2,
+    "relerr_kernel": 1.0000024669897716,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 48,
+    "trial": 2,
+    "relerr_kernel": 1.0000017241254335,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 56,
+    "trial": 2,
+    "relerr_kernel": 1.000001306654603,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 64,
+    "trial": 2,
+    "relerr_kernel": 1.000001018121281,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 72,
+    "trial": 2,
+    "relerr_kernel": 1.0000007952169951,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 80,
+    "trial": 2,
+    "relerr_kernel": 1.0000006412711546,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 16,
+    "trial": 3,
+    "relerr_kernel": 1.0000001460971681,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 24,
+    "trial": 3,
+    "relerr_kernel": 1.0000000613417988,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 32,
+    "trial": 3,
+    "relerr_kernel": 1.000000115743447,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 40,
+    "trial": 3,
+    "relerr_kernel": 1.000000070013767,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 48,
+    "trial": 3,
+    "relerr_kernel": 1.0000090447534749,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 56,
+    "trial": 3,
+    "relerr_kernel": 1.000007064718657,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 64,
+    "trial": 3,
+    "relerr_kernel": 1.000005402714641,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 72,
+    "trial": 3,
+    "relerr_kernel": 1.0000042882134164,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 80,
+    "trial": 3,
+    "relerr_kernel": 1.0000034936707758,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 16,
+    "trial": 4,
+    "relerr_kernel": 1.0000088597931223,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 24,
+    "trial": 4,
+    "relerr_kernel": 1.0000039246553518,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 32,
+    "trial": 4,
+    "relerr_kernel": 1.0000021925033058,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 40,
+    "trial": 4,
+    "relerr_kernel": 1.0000014043801115,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 48,
+    "trial": 4,
+    "relerr_kernel": 1.0000009795552216,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 56,
+    "trial": 4,
+    "relerr_kernel": 1.0000007172279937,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 64,
+    "trial": 4,
+    "relerr_kernel": 1.0000005445400952,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 72,
+    "trial": 4,
+    "relerr_kernel": 1.0000004999117158,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 80,
+    "trial": 4,
+    "relerr_kernel": 1.000000405089413,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 16,
+    "trial": 5,
+    "relerr_kernel": 1.0000014092056957,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 24,
+    "trial": 5,
+    "relerr_kernel": 1.000000776370777,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 32,
+    "trial": 5,
+    "relerr_kernel": 1.0000009591408379,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 40,
+    "trial": 5,
+    "relerr_kernel": 1.0000006698810615,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 48,
+    "trial": 5,
+    "relerr_kernel": 1.0000007266888942,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 56,
+    "trial": 5,
+    "relerr_kernel": 1.0000006363252683,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 64,
+    "trial": 5,
+    "relerr_kernel": 1.0000004816026076,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 72,
+    "trial": 5,
+    "relerr_kernel": 1.000000396660714,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 80,
+    "trial": 5,
+    "relerr_kernel": 1.0000004626554992,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 16,
+    "trial": 6,
+    "relerr_kernel": 1.0000012101746165,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 24,
+    "trial": 6,
+    "relerr_kernel": 1.000000527466478,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 32,
+    "trial": 6,
+    "relerr_kernel": 1.0000003796551291,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 40,
+    "trial": 6,
+    "relerr_kernel": 1.0000004569009486,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 48,
+    "trial": 6,
+    "relerr_kernel": 1.0000003109127906,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 56,
+    "trial": 6,
+    "relerr_kernel": 1.0000002265573793,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 64,
+    "trial": 6,
+    "relerr_kernel": 1.0000007774945407,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 72,
+    "trial": 6,
+    "relerr_kernel": 1.0000006093250136,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 80,
+    "trial": 6,
+    "relerr_kernel": 1.0000054622969963,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 16,
+    "trial": 7,
+    "relerr_kernel": 1.0000030979998353,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 24,
+    "trial": 7,
+    "relerr_kernel": 1.0000053930717556,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 32,
+    "trial": 7,
+    "relerr_kernel": 1.0000030240511635,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 40,
+    "trial": 7,
+    "relerr_kernel": 1.0000019945362946,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 48,
+    "trial": 7,
+    "relerr_kernel": 1.0000013785795185,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 56,
+    "trial": 7,
+    "relerr_kernel": 1.000001018749097,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 64,
+    "trial": 7,
+    "relerr_kernel": 1.0000007867321463,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 72,
+    "trial": 7,
+    "relerr_kernel": 1.0000006182124987,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 80,
+    "trial": 7,
+    "relerr_kernel": 1.0000004989344815,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 16,
+    "trial": 8,
+    "relerr_kernel": 1.000000564239915,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 24,
+    "trial": 8,
+    "relerr_kernel": 1.0000003739550205,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 32,
+    "trial": 8,
+    "relerr_kernel": 1.0000002008753417,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 40,
+    "trial": 8,
+    "relerr_kernel": 1.0000003775672366,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 48,
+    "trial": 8,
+    "relerr_kernel": 1.000000744627258,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 56,
+    "trial": 8,
+    "relerr_kernel": 1.0000005699589691,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 64,
+    "trial": 8,
+    "relerr_kernel": 1.0000008509346936,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 72,
+    "trial": 8,
+    "relerr_kernel": 1.0000006717103187,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 80,
+    "trial": 8,
+    "relerr_kernel": 1.0000005406283394,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 16,
+    "trial": 9,
+    "relerr_kernel": 1.0000027558192695,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 24,
+    "trial": 9,
+    "relerr_kernel": 1.0000047139409773,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 32,
+    "trial": 9,
+    "relerr_kernel": 1.000003134547396,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 40,
+    "trial": 9,
+    "relerr_kernel": 1.0000020565724865,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 48,
+    "trial": 9,
+    "relerr_kernel": 1.0000014163602409,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 56,
+    "trial": 9,
+    "relerr_kernel": 1.0000010940194601,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 64,
+    "trial": 9,
+    "relerr_kernel": 1.0000008285397508,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 72,
+    "trial": 9,
+    "relerr_kernel": 1.000000648902727,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 80,
+    "trial": 9,
+    "relerr_kernel": 1.0000005229542475,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 16,
+    "trial": 10,
+    "relerr_kernel": 1.0000008865406755,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 24,
+    "trial": 10,
+    "relerr_kernel": 1.000012504777158,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 32,
+    "trial": 10,
+    "relerr_kernel": 1.0000132124276517,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 40,
+    "trial": 10,
+    "relerr_kernel": 1.0000084195825911,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 48,
+    "trial": 10,
+    "relerr_kernel": 1.000006388145083,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 56,
+    "trial": 10,
+    "relerr_kernel": 1.0000046723409184,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 64,
+    "trial": 10,
+    "relerr_kernel": 1.0000035610172793,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 72,
+    "trial": 10,
+    "relerr_kernel": 1.0000027998263694,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 80,
+    "trial": 10,
+    "relerr_kernel": 1.0000022534544282,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 16,
+    "trial": 11,
+    "relerr_kernel": 1.000001059601466,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 24,
+    "trial": 11,
+    "relerr_kernel": 1.0000004738441697,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 32,
+    "trial": 11,
+    "relerr_kernel": 1.0000003268124276,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 40,
+    "trial": 11,
+    "relerr_kernel": 1.0000078846941591,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 48,
+    "trial": 11,
+    "relerr_kernel": 1.0000054555936986,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 56,
+    "trial": 11,
+    "relerr_kernel": 1.0000039963901208,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 64,
+    "trial": 11,
+    "relerr_kernel": 1.000003048219853,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 72,
+    "trial": 11,
+    "relerr_kernel": 1.0000024005365606,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 80,
+    "trial": 11,
+    "relerr_kernel": 1.000001949372451,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 16,
+    "trial": 12,
+    "relerr_kernel": 1.0000086884305308,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 24,
+    "trial": 12,
+    "relerr_kernel": 1.000014051978239,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 32,
+    "trial": 12,
+    "relerr_kernel": 1.000007912907896,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 40,
+    "trial": 12,
+    "relerr_kernel": 1.0000051095598472,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 48,
+    "trial": 12,
+    "relerr_kernel": 1.0000036138851893,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 56,
+    "trial": 12,
+    "relerr_kernel": 1.0000027109585625,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 64,
+    "trial": 12,
+    "relerr_kernel": 1.0000029127391417,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 72,
+    "trial": 12,
+    "relerr_kernel": 1.0000022942196127,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 80,
+    "trial": 12,
+    "relerr_kernel": 1.0000018543415603,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 16,
+    "trial": 13,
+    "relerr_kernel": 1.0000033073530712,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 24,
+    "trial": 13,
+    "relerr_kernel": 1.0000014694240855,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 32,
+    "trial": 13,
+    "relerr_kernel": 1.000000815241606,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 40,
+    "trial": 13,
+    "relerr_kernel": 1.000000512883719,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 48,
+    "trial": 13,
+    "relerr_kernel": 1.0000003482409494,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 56,
+    "trial": 13,
+    "relerr_kernel": 1.0000002488993134,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 64,
+    "trial": 13,
+    "relerr_kernel": 1.000000185377377,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 72,
+    "trial": 13,
+    "relerr_kernel": 1.0000012249453962,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 80,
+    "trial": 13,
+    "relerr_kernel": 1.0000009892225237,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 16,
+    "trial": 14,
+    "relerr_kernel": 1.000000134226855,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 24,
+    "trial": 14,
+    "relerr_kernel": 1.000000059809603,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 32,
+    "trial": 14,
+    "relerr_kernel": 1.000000030547446,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 40,
+    "trial": 14,
+    "relerr_kernel": 1.0000000172517378,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 48,
+    "trial": 14,
+    "relerr_kernel": 1.0000000101985498,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 56,
+    "trial": 14,
+    "relerr_kernel": 1.0000000158209448,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 64,
+    "trial": 14,
+    "relerr_kernel": 1.0000000201175705,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 72,
+    "trial": 14,
+    "relerr_kernel": 1.0000000143383088,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 80,
+    "trial": 14,
+    "relerr_kernel": 1.0000001710799595,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 16,
+    "trial": 15,
+    "relerr_kernel": 1.0000004575223982,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 24,
+    "trial": 15,
+    "relerr_kernel": 1.0000002197531785,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 32,
+    "trial": 15,
+    "relerr_kernel": 1.0000021041759528,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 40,
+    "trial": 15,
+    "relerr_kernel": 1.0000014293497654,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 48,
+    "trial": 15,
+    "relerr_kernel": 1.000002465750184,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 56,
+    "trial": 15,
+    "relerr_kernel": 1.0000018014969945,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 64,
+    "trial": 15,
+    "relerr_kernel": 1.000001372064526,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 72,
+    "trial": 15,
+    "relerr_kernel": 1.0000010765306073,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 80,
+    "trial": 15,
+    "relerr_kernel": 1.0000009997478638,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 16,
+    "trial": 16,
+    "relerr_kernel": 1.00000008237095,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 24,
+    "trial": 16,
+    "relerr_kernel": 1.0000382480495493,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 32,
+    "trial": 16,
+    "relerr_kernel": 1.0000214806315884,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 40,
+    "trial": 16,
+    "relerr_kernel": 1.000017031227676,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 48,
+    "trial": 16,
+    "relerr_kernel": 1.000011961857569,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 56,
+    "trial": 16,
+    "relerr_kernel": 1.0000087672318876,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 64,
+    "trial": 16,
+    "relerr_kernel": 1.000008221453453,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 72,
+    "trial": 16,
+    "relerr_kernel": 1.0000064805517033,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 80,
+    "trial": 16,
+    "relerr_kernel": 1.0000052361202594,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 16,
+    "trial": 17,
+    "relerr_kernel": 1.0000002466442346,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 24,
+    "trial": 17,
+    "relerr_kernel": 1.000000144607344,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 32,
+    "trial": 17,
+    "relerr_kernel": 1.0000015763543206,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 40,
+    "trial": 17,
+    "relerr_kernel": 1.0000010297371857,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 48,
+    "trial": 17,
+    "relerr_kernel": 1.0000007233907036,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 56,
+    "trial": 17,
+    "relerr_kernel": 1.0000005258485498,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 64,
+    "trial": 17,
+    "relerr_kernel": 1.0000004000548464,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 72,
+    "trial": 17,
+    "relerr_kernel": 1.0000003504564547,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 80,
+    "trial": 17,
+    "relerr_kernel": 1.0000004015005297,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 16,
+    "trial": 18,
+    "relerr_kernel": 1.0000039106788627,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 24,
+    "trial": 18,
+    "relerr_kernel": 1.0000021532913776,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 32,
+    "trial": 18,
+    "relerr_kernel": 1.000001248032335,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 40,
+    "trial": 18,
+    "relerr_kernel": 1.0000012287046842,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 48,
+    "trial": 18,
+    "relerr_kernel": 1.0000008771554698,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 56,
+    "trial": 18,
+    "relerr_kernel": 1.0000006401746369,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 64,
+    "trial": 18,
+    "relerr_kernel": 1.0000004808655916,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 72,
+    "trial": 18,
+    "relerr_kernel": 1.0000003739147187,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 80,
+    "trial": 18,
+    "relerr_kernel": 1.0000006578718295,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 16,
+    "trial": 19,
+    "relerr_kernel": 1.0000000333225307,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 24,
+    "trial": 19,
+    "relerr_kernel": 1.0000000097786566,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 32,
+    "trial": 19,
+    "relerr_kernel": 1.000000002139092,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 40,
+    "trial": 19,
+    "relerr_kernel": 1.000000008418593,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 48,
+    "trial": 19,
+    "relerr_kernel": 1.0000001564702141,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 56,
+    "trial": 19,
+    "relerr_kernel": 1.0000001163369636,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 64,
+    "trial": 19,
+    "relerr_kernel": 1.0000001403548326,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 72,
+    "trial": 19,
+    "relerr_kernel": 1.0000001946485766,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 80,
+    "trial": 19,
+    "relerr_kernel": 1.0000001578098738,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 16,
+    "trial": 20,
+    "relerr_kernel": 1.0000112426193455,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 24,
+    "trial": 20,
+    "relerr_kernel": 1.0000163627119512,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 32,
+    "trial": 20,
+    "relerr_kernel": 1.0000120894124376,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 40,
+    "trial": 20,
+    "relerr_kernel": 1.0000163144974819,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 48,
+    "trial": 20,
+    "relerr_kernel": 1.000012515620178,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 56,
+    "trial": 20,
+    "relerr_kernel": 1.0004970453490114,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 64,
+    "trial": 20,
+    "relerr_kernel": 1.0003804323345398,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 72,
+    "trial": 20,
+    "relerr_kernel": 1.0003004953925394,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 80,
+    "trial": 20,
+    "relerr_kernel": 1.0002433249282159,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 16,
+    "trial": 21,
+    "relerr_kernel": 1.000001920618737,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 24,
+    "trial": 21,
+    "relerr_kernel": 1.0000009285672238,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 32,
+    "trial": 21,
+    "relerr_kernel": 1.0000025675930968,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 40,
+    "trial": 21,
+    "relerr_kernel": 1.0000016338218574,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 48,
+    "trial": 21,
+    "relerr_kernel": 1.00000113477322,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 56,
+    "trial": 21,
+    "relerr_kernel": 1.0000008279748633,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 64,
+    "trial": 21,
+    "relerr_kernel": 1.000000710005551,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 72,
+    "trial": 21,
+    "relerr_kernel": 1.00066144803028,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 80,
+    "trial": 21,
+    "relerr_kernel": 1.00053576250608,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 16,
+    "trial": 22,
+    "relerr_kernel": 1.0000357205551966,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 24,
+    "trial": 22,
+    "relerr_kernel": 1.0000159363000571,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 32,
+    "trial": 22,
+    "relerr_kernel": 1.0000120292221937,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 40,
+    "trial": 22,
+    "relerr_kernel": 1.0005218143348489,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 48,
+    "trial": 22,
+    "relerr_kernel": 1.0003622971891535,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 56,
+    "trial": 22,
+    "relerr_kernel": 1.000266125539124,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 64,
+    "trial": 22,
+    "relerr_kernel": 1.0002037176874596,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 72,
+    "trial": 22,
+    "relerr_kernel": 1.0001609304693566,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 80,
+    "trial": 22,
+    "relerr_kernel": 1.0001303257077898,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 16,
+    "trial": 23,
+    "relerr_kernel": 1.0000001757019752,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 24,
+    "trial": 23,
+    "relerr_kernel": 1.0000005677398367,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 32,
+    "trial": 23,
+    "relerr_kernel": 1.0000001184079896,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 40,
+    "trial": 23,
+    "relerr_kernel": 1.0000000402699465,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 48,
+    "trial": 23,
+    "relerr_kernel": 0.9999999967362596,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 56,
+    "trial": 23,
+    "relerr_kernel": 0.9999999743288198,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 64,
+    "trial": 23,
+    "relerr_kernel": 1.0000005652176889,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 72,
+    "trial": 23,
+    "relerr_kernel": 1.0000004320264002,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 80,
+    "trial": 23,
+    "relerr_kernel": 1.000000336132143,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 16,
+    "trial": 24,
+    "relerr_kernel": 1.0000030312880643,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 24,
+    "trial": 24,
+    "relerr_kernel": 1.0000013320582235,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 32,
+    "trial": 24,
+    "relerr_kernel": 1.000000739639907,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 40,
+    "trial": 24,
+    "relerr_kernel": 1.0000005232602756,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 48,
+    "trial": 24,
+    "relerr_kernel": 1.000000776621002,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 56,
+    "trial": 24,
+    "relerr_kernel": 1.000000567867578,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 64,
+    "trial": 24,
+    "relerr_kernel": 1.000000427771343,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 72,
+    "trial": 24,
+    "relerr_kernel": 1.0000003319425081,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 80,
+    "trial": 24,
+    "relerr_kernel": 1.0000002644669987,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 16,
+    "trial": 25,
+    "relerr_kernel": 1.0808494619245752,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 24,
+    "trial": 25,
+    "relerr_kernel": 1.0359304683106374,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 32,
+    "trial": 25,
+    "relerr_kernel": 1.0202094107771345,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 40,
+    "trial": 25,
+    "relerr_kernel": 1.01293307968013,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 48,
+    "trial": 25,
+    "relerr_kernel": 1.0089808053757268,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 56,
+    "trial": 25,
+    "relerr_kernel": 1.0065977422916512,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 64,
+    "trial": 25,
+    "relerr_kernel": 1.00505102790152,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 72,
+    "trial": 25,
+    "relerr_kernel": 1.0039911398649544,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 80,
+    "trial": 25,
+    "relerr_kernel": 1.0032325840483216,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 16,
+    "trial": 26,
+    "relerr_kernel": 1.000000028063749,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 24,
+    "trial": 26,
+    "relerr_kernel": 1.0000007744981734,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 32,
+    "trial": 26,
+    "relerr_kernel": 1.0000004466637276,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 40,
+    "trial": 26,
+    "relerr_kernel": 1.0000003385922676,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 48,
+    "trial": 26,
+    "relerr_kernel": 1.000000261216603,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 56,
+    "trial": 26,
+    "relerr_kernel": 1.000000232443817,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 64,
+    "trial": 26,
+    "relerr_kernel": 1.000000199310607,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 72,
+    "trial": 26,
+    "relerr_kernel": 1.0000001588081175,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 80,
+    "trial": 26,
+    "relerr_kernel": 1.0000001239247378,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 16,
+    "trial": 27,
+    "relerr_kernel": 1.0000020548561963,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 24,
+    "trial": 27,
+    "relerr_kernel": 1.0000009353601222,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 32,
+    "trial": 27,
+    "relerr_kernel": 1.0000008198112758,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 40,
+    "trial": 27,
+    "relerr_kernel": 1.000000521066435,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 48,
+    "trial": 27,
+    "relerr_kernel": 1.000000358423206,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 56,
+    "trial": 27,
+    "relerr_kernel": 1.0000002610495535,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 64,
+    "trial": 27,
+    "relerr_kernel": 1.000000203268207,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 72,
+    "trial": 27,
+    "relerr_kernel": 1.0000002861401365,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 80,
+    "trial": 27,
+    "relerr_kernel": 1.000000228259692,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 16,
+    "trial": 28,
+    "relerr_kernel": 1.0000050841777386,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 24,
+    "trial": 28,
+    "relerr_kernel": 1.000002559671638,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 32,
+    "trial": 28,
+    "relerr_kernel": 1.0000014426307728,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 40,
+    "trial": 28,
+    "relerr_kernel": 1.000001711884781,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 48,
+    "trial": 28,
+    "relerr_kernel": 1.0000012387974608,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 56,
+    "trial": 28,
+    "relerr_kernel": 1.0000134719863332,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 64,
+    "trial": 28,
+    "relerr_kernel": 1.0000102939943767,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 72,
+    "trial": 28,
+    "relerr_kernel": 1.0000081153053904,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 80,
+    "trial": 28,
+    "relerr_kernel": 1.0000065617355804,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 16,
+    "trial": 29,
+    "relerr_kernel": 1.0000000929373911,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 24,
+    "trial": 29,
+    "relerr_kernel": 1.0000000364327182,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 32,
+    "trial": 29,
+    "relerr_kernel": 1.000000016781228,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 40,
+    "trial": 29,
+    "relerr_kernel": 1.0000000136509961,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 48,
+    "trial": 29,
+    "relerr_kernel": 1.0000000242831995,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 56,
+    "trial": 29,
+    "relerr_kernel": 1.0000000181058852,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 64,
+    "trial": 29,
+    "relerr_kernel": 1.0000002987328804,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 72,
+    "trial": 29,
+    "relerr_kernel": 1.0000002406258002,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 80,
+    "trial": 29,
+    "relerr_kernel": 1.000000676664241,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 16,
+    "trial": 30,
+    "relerr_kernel": 1.0003322590279533,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 24,
+    "trial": 30,
+    "relerr_kernel": 1.0001476352057814,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 32,
+    "trial": 30,
+    "relerr_kernel": 1.0000830559672123,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 40,
+    "trial": 30,
+    "relerr_kernel": 1.0000531330714268,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 48,
+    "trial": 30,
+    "relerr_kernel": 1.0000370391303537,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 56,
+    "trial": 30,
+    "relerr_kernel": 1.0000272020621506,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 64,
+    "trial": 30,
+    "relerr_kernel": 1.0000216328445748,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 72,
+    "trial": 30,
+    "relerr_kernel": 1.0000170953083516,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 80,
+    "trial": 30,
+    "relerr_kernel": 1.0000138389195887,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 16,
+    "trial": 31,
+    "relerr_kernel": 1.00007698983273,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 24,
+    "trial": 31,
+    "relerr_kernel": 1.0000341696950839,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 32,
+    "trial": 31,
+    "relerr_kernel": 1.0000192076961696,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 40,
+    "trial": 31,
+    "relerr_kernel": 1.0000152245280252,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 48,
+    "trial": 31,
+    "relerr_kernel": 1.0000106030041243,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 56,
+    "trial": 31,
+    "relerr_kernel": 1.0000077781173384,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 64,
+    "trial": 31,
+    "relerr_kernel": 1.0000059507095411,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 72,
+    "trial": 31,
+    "relerr_kernel": 1.0000048080845056,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 80,
+    "trial": 31,
+    "relerr_kernel": 1.0000038948394399,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 16,
+    "trial": 32,
+    "relerr_kernel": 1.000000202083176,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 24,
+    "trial": 32,
+    "relerr_kernel": 1.0000001028299292,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 32,
+    "trial": 32,
+    "relerr_kernel": 1.0000001847271145,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 40,
+    "trial": 32,
+    "relerr_kernel": 1.0000038182163704,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 48,
+    "trial": 32,
+    "relerr_kernel": 1.0000026457506237,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 56,
+    "trial": 32,
+    "relerr_kernel": 1.0000019596596172,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 64,
+    "trial": 32,
+    "relerr_kernel": 1.000001493590748,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 72,
+    "trial": 32,
+    "relerr_kernel": 1.0000011741763908,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 80,
+    "trial": 32,
+    "relerr_kernel": 1.0000009465146562,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 16,
+    "trial": 33,
+    "relerr_kernel": 1.0000002298346466,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 24,
+    "trial": 33,
+    "relerr_kernel": 1.0000028774092433,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 32,
+    "trial": 33,
+    "relerr_kernel": 1.0000016091311352,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 40,
+    "trial": 33,
+    "relerr_kernel": 1.000001020084989,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 48,
+    "trial": 33,
+    "relerr_kernel": 1.0000007892992422,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 56,
+    "trial": 33,
+    "relerr_kernel": 1.0000005735596453,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 64,
+    "trial": 33,
+    "relerr_kernel": 1.0000004340610742,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 72,
+    "trial": 33,
+    "relerr_kernel": 1.0000004054659948,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 80,
+    "trial": 33,
+    "relerr_kernel": 1.0000003230086212,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 16,
+    "trial": 34,
+    "relerr_kernel": 1.0000019393079407,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 24,
+    "trial": 34,
+    "relerr_kernel": 1.0000010051470103,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 32,
+    "trial": 34,
+    "relerr_kernel": 1.0000006031165491,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 40,
+    "trial": 34,
+    "relerr_kernel": 1.0000003851139296,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 48,
+    "trial": 34,
+    "relerr_kernel": 1.000003627857117,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 56,
+    "trial": 34,
+    "relerr_kernel": 1.0000026646422868,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 64,
+    "trial": 34,
+    "relerr_kernel": 1.0000020353988983,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 72,
+    "trial": 34,
+    "relerr_kernel": 1.0000016043845952,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 80,
+    "trial": 34,
+    "relerr_kernel": 1.0000013002569648,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 16,
+    "trial": 35,
+    "relerr_kernel": 1.0000002641482753,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 24,
+    "trial": 35,
+    "relerr_kernel": 1.0000771110911875,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 32,
+    "trial": 35,
+    "relerr_kernel": 1.000043414442522,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 40,
+    "trial": 35,
+    "relerr_kernel": 1.0000296067706602,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 48,
+    "trial": 35,
+    "relerr_kernel": 1.0000205524058896,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 56,
+    "trial": 35,
+    "relerr_kernel": 1.000015112636307,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 64,
+    "trial": 35,
+    "relerr_kernel": 1.0000115702497823,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 72,
+    "trial": 35,
+    "relerr_kernel": 1.0000092516353492,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 80,
+    "trial": 35,
+    "relerr_kernel": 1.0000075010620275,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 16,
+    "trial": 36,
+    "relerr_kernel": 1.0000002078721784,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 24,
+    "trial": 36,
+    "relerr_kernel": 1.0000002637731786,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 32,
+    "trial": 36,
+    "relerr_kernel": 1.0000001435385986,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 40,
+    "trial": 36,
+    "relerr_kernel": 1.0000001040140165,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 48,
+    "trial": 36,
+    "relerr_kernel": 1.0115507402231787,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 56,
+    "trial": 36,
+    "relerr_kernel": 1.008485810141213,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 64,
+    "trial": 36,
+    "relerr_kernel": 1.0064966054868527,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 72,
+    "trial": 36,
+    "relerr_kernel": 1.0051328515850935,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 80,
+    "trial": 36,
+    "relerr_kernel": 1.004157407294044,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 16,
+    "trial": 37,
+    "relerr_kernel": 1.0000004367291717,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 24,
+    "trial": 37,
+    "relerr_kernel": 1.00000879416191,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 32,
+    "trial": 37,
+    "relerr_kernel": 1.00000656097607,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 40,
+    "trial": 37,
+    "relerr_kernel": 1.0000041905060721,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 48,
+    "trial": 37,
+    "relerr_kernel": 1.000002898840844,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 56,
+    "trial": 37,
+    "relerr_kernel": 1.0000021235692922,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 64,
+    "trial": 37,
+    "relerr_kernel": 1.000001628225149,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 72,
+    "trial": 37,
+    "relerr_kernel": 1.0000017926096032,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 80,
+    "trial": 37,
+    "relerr_kernel": 1.0000014447749173,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 16,
+    "trial": 38,
+    "relerr_kernel": 1.000000098576001,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 24,
+    "trial": 38,
+    "relerr_kernel": 1.0000013778321895,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 32,
+    "trial": 38,
+    "relerr_kernel": 1.0000007743356836,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 40,
+    "trial": 38,
+    "relerr_kernel": 1.0000004929119575,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 48,
+    "trial": 38,
+    "relerr_kernel": 1.0000003377786453,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 56,
+    "trial": 38,
+    "relerr_kernel": 1.0000004277318446,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 64,
+    "trial": 38,
+    "relerr_kernel": 1.0000003325322917,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 72,
+    "trial": 38,
+    "relerr_kernel": 1.0000002601613238,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 80,
+    "trial": 38,
+    "relerr_kernel": 1.0000002077655525,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 16,
+    "trial": 39,
+    "relerr_kernel": 1.0000002727036044,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 24,
+    "trial": 39,
+    "relerr_kernel": 1.0000001141306376,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 32,
+    "trial": 39,
+    "relerr_kernel": 1.0001995546909404,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 40,
+    "trial": 39,
+    "relerr_kernel": 1.0001706400942219,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 48,
+    "trial": 39,
+    "relerr_kernel": 1.0001188624449848,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 56,
+    "trial": 39,
+    "relerr_kernel": 1.0000874007097211,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 64,
+    "trial": 39,
+    "relerr_kernel": 1.0000668950096352,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 72,
+    "trial": 39,
+    "relerr_kernel": 1.000052838273753,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 80,
+    "trial": 39,
+    "relerr_kernel": 1.0000427925989501,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 16,
+    "trial": 40,
+    "relerr_kernel": 1.0000000225337482,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 24,
+    "trial": 40,
+    "relerr_kernel": 1.0000000398308335,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 32,
+    "trial": 40,
+    "relerr_kernel": 1.0000001190674264,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 40,
+    "trial": 40,
+    "relerr_kernel": 1.0000001290050384,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 48,
+    "trial": 40,
+    "relerr_kernel": 1.0000006854277053,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 56,
+    "trial": 40,
+    "relerr_kernel": 1.0000004962249027,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 64,
+    "trial": 40,
+    "relerr_kernel": 1.0000011146987404,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 72,
+    "trial": 40,
+    "relerr_kernel": 1.0000014498663026,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 80,
+    "trial": 40,
+    "relerr_kernel": 1.0000011636430142,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 16,
+    "trial": 41,
+    "relerr_kernel": 1.0000050792449353,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 24,
+    "trial": 41,
+    "relerr_kernel": 1.0000043611495888,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 32,
+    "trial": 41,
+    "relerr_kernel": 1.000002457686671,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 40,
+    "trial": 41,
+    "relerr_kernel": 1.0000015607534218,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 48,
+    "trial": 41,
+    "relerr_kernel": 1.0000012023560323,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 56,
+    "trial": 41,
+    "relerr_kernel": 1.000000875325317,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 64,
+    "trial": 41,
+    "relerr_kernel": 1.0000006636652174,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 72,
+    "trial": 41,
+    "relerr_kernel": 1.0000007319708866,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 80,
+    "trial": 41,
+    "relerr_kernel": 1.0000005851325082,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 16,
+    "trial": 42,
+    "relerr_kernel": 1.00000108259232,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 24,
+    "trial": 42,
+    "relerr_kernel": 1.0000004894207886,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 32,
+    "trial": 42,
+    "relerr_kernel": 1.000000393938014,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 40,
+    "trial": 42,
+    "relerr_kernel": 1.000000247305083,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 48,
+    "trial": 42,
+    "relerr_kernel": 1.0000002713263985,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 56,
+    "trial": 42,
+    "relerr_kernel": 1.0000002016498644,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 64,
+    "trial": 42,
+    "relerr_kernel": 1.0000001501359979,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 72,
+    "trial": 42,
+    "relerr_kernel": 1.0000455559960109,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 80,
+    "trial": 42,
+    "relerr_kernel": 1.0000368970061253,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 16,
+    "trial": 43,
+    "relerr_kernel": 1.000000056817112,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 24,
+    "trial": 43,
+    "relerr_kernel": 1.0000007375594766,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 32,
+    "trial": 43,
+    "relerr_kernel": 1.0000006180456584,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 40,
+    "trial": 43,
+    "relerr_kernel": 1.000000390231666,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 48,
+    "trial": 43,
+    "relerr_kernel": 1.0000002771876029,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 56,
+    "trial": 43,
+    "relerr_kernel": 1.0000001989118388,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 64,
+    "trial": 43,
+    "relerr_kernel": 1.000001445448177,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 72,
+    "trial": 43,
+    "relerr_kernel": 1.000001142794293,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 80,
+    "trial": 43,
+    "relerr_kernel": 1.0000009165365693,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 16,
+    "trial": 44,
+    "relerr_kernel": 1.0000082152314742,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 24,
+    "trial": 44,
+    "relerr_kernel": 1.0000036471465208,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 32,
+    "trial": 44,
+    "relerr_kernel": 1.0000023244801974,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 40,
+    "trial": 44,
+    "relerr_kernel": 1.0000229259432878,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 48,
+    "trial": 44,
+    "relerr_kernel": 1.0000158310640337,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 56,
+    "trial": 44,
+    "relerr_kernel": 1.000124175560406,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 64,
+    "trial": 44,
+    "relerr_kernel": 1.0000950146931513,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 72,
+    "trial": 44,
+    "relerr_kernel": 1.0000750250322317,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 80,
+    "trial": 44,
+    "relerr_kernel": 1.0000607268889055,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 16,
+    "trial": 45,
+    "relerr_kernel": 1.000002241594181,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 24,
+    "trial": 45,
+    "relerr_kernel": 1.0000009987443508,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 32,
+    "trial": 45,
+    "relerr_kernel": 1.0000005571677555,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 40,
+    "trial": 45,
+    "relerr_kernel": 1.0000016723850669,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 48,
+    "trial": 45,
+    "relerr_kernel": 1.0000011673737954,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 56,
+    "trial": 45,
+    "relerr_kernel": 1.0000008513494023,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 64,
+    "trial": 45,
+    "relerr_kernel": 1.000000647560583,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 72,
+    "trial": 45,
+    "relerr_kernel": 1.0000005437839128,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 80,
+    "trial": 45,
+    "relerr_kernel": 1.0000004368239044,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 16,
+    "trial": 46,
+    "relerr_kernel": 1.0000005204717235,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 24,
+    "trial": 46,
+    "relerr_kernel": 1.000001215629666,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 32,
+    "trial": 46,
+    "relerr_kernel": 1.000000674984546,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 40,
+    "trial": 46,
+    "relerr_kernel": 1.0000028388129378,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 48,
+    "trial": 46,
+    "relerr_kernel": 1.0000102158813586,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 56,
+    "trial": 46,
+    "relerr_kernel": 1.0000074983193363,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 64,
+    "trial": 46,
+    "relerr_kernel": 1.0000057455777662,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 72,
+    "trial": 46,
+    "relerr_kernel": 1.0000045995419085,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 80,
+    "trial": 46,
+    "relerr_kernel": 1.000003752518035,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 16,
+    "trial": 47,
+    "relerr_kernel": 1.0000003226206606,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 24,
+    "trial": 47,
+    "relerr_kernel": 1.0000037051263975,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 32,
+    "trial": 47,
+    "relerr_kernel": 1.000002072862612,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 40,
+    "trial": 47,
+    "relerr_kernel": 1.0000014054448918,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 48,
+    "trial": 47,
+    "relerr_kernel": 1.0000009939761267,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 56,
+    "trial": 47,
+    "relerr_kernel": 1.0000008575566333,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 64,
+    "trial": 47,
+    "relerr_kernel": 1.0000006496626002,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 72,
+    "trial": 47,
+    "relerr_kernel": 1.0000005094238444,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 80,
+    "trial": 47,
+    "relerr_kernel": 1.0000004058008056,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 16,
+    "trial": 48,
+    "relerr_kernel": 1.0000001164640901,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 24,
+    "trial": 48,
+    "relerr_kernel": 1.0000002272341553,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 32,
+    "trial": 48,
+    "relerr_kernel": 0.9999999886966391,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 40,
+    "trial": 48,
+    "relerr_kernel": 1.0000000485978016,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 48,
+    "trial": 48,
+    "relerr_kernel": 0.9999999760576798,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 56,
+    "trial": 48,
+    "relerr_kernel": 0.9999999771237664,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 64,
+    "trial": 48,
+    "relerr_kernel": 1.0000000326755556,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 72,
+    "trial": 48,
+    "relerr_kernel": 0.9999999965501882,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 80,
+    "trial": 48,
+    "relerr_kernel": 0.9999999747217322,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 16,
+    "trial": 49,
+    "relerr_kernel": 1.0000000238803306,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 24,
+    "trial": 49,
+    "relerr_kernel": 1.000000067745799,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 32,
+    "trial": 49,
+    "relerr_kernel": 1.0000000361003498,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 40,
+    "trial": 49,
+    "relerr_kernel": 1.0000000230017765,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 48,
+    "trial": 49,
+    "relerr_kernel": 1.0002076439535157,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 56,
+    "trial": 49,
+    "relerr_kernel": 1.0001525373750222,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 64,
+    "trial": 49,
+    "relerr_kernel": 1.0001168014383142,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 72,
+    "trial": 49,
+    "relerr_kernel": 1.0000988916822147,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 80,
+    "trial": 49,
+    "relerr_kernel": 1.0000800840957982,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 16,
+    "trial": 50,
+    "relerr_kernel": 1.0000011449722912,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 24,
+    "trial": 50,
+    "relerr_kernel": 1.000000964100466,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 32,
+    "trial": 50,
+    "relerr_kernel": 1.0000005427381655,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 40,
+    "trial": 50,
+    "relerr_kernel": 1.0000028734419804,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 48,
+    "trial": 50,
+    "relerr_kernel": 1.0000019898331771,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 56,
+    "trial": 50,
+    "relerr_kernel": 1.0000014498078869,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 64,
+    "trial": 50,
+    "relerr_kernel": 1.0000011964395468,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 72,
+    "trial": 50,
+    "relerr_kernel": 1.0000009329380424,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 80,
+    "trial": 50,
+    "relerr_kernel": 1.0000007464441745,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 16,
+    "trial": 51,
+    "relerr_kernel": 1.0000252752397023,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 24,
+    "trial": 51,
+    "relerr_kernel": 1.0000113342913182,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 32,
+    "trial": 51,
+    "relerr_kernel": 1.0000076769759607,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 40,
+    "trial": 51,
+    "relerr_kernel": 1.0000049605613348,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 48,
+    "trial": 51,
+    "relerr_kernel": 1.0000034349409301,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 56,
+    "trial": 51,
+    "relerr_kernel": 1.0000087411694172,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 64,
+    "trial": 51,
+    "relerr_kernel": 1.0000066817252,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 72,
+    "trial": 51,
+    "relerr_kernel": 1.0000052709819087,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 80,
+    "trial": 51,
+    "relerr_kernel": 1.0000042634321828,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 16,
+    "trial": 52,
+    "relerr_kernel": 1.0000031319572447,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 24,
+    "trial": 52,
+    "relerr_kernel": 1.000001388422079,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 32,
+    "trial": 52,
+    "relerr_kernel": 1.000000775471733,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 40,
+    "trial": 52,
+    "relerr_kernel": 1.0000004946082115,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 48,
+    "trial": 52,
+    "relerr_kernel": 1.0000003843385137,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 56,
+    "trial": 52,
+    "relerr_kernel": 1.0000003469603351,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 64,
+    "trial": 52,
+    "relerr_kernel": 1.0000002671691908,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 72,
+    "trial": 52,
+    "relerr_kernel": 1.0000005664374287,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 80,
+    "trial": 52,
+    "relerr_kernel": 1.0000004557987954,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 16,
+    "trial": 53,
+    "relerr_kernel": 1.0000002791778708,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 24,
+    "trial": 53,
+    "relerr_kernel": 1.0000008685855344,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 32,
+    "trial": 53,
+    "relerr_kernel": 1.0000051177702696,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 40,
+    "trial": 53,
+    "relerr_kernel": 1.0000032673504833,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 48,
+    "trial": 53,
+    "relerr_kernel": 1.0000022629097929,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 56,
+    "trial": 53,
+    "relerr_kernel": 1.0000016975326202,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 64,
+    "trial": 53,
+    "relerr_kernel": 1.0000013400461158,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 72,
+    "trial": 53,
+    "relerr_kernel": 1.0000010545459326,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 80,
+    "trial": 53,
+    "relerr_kernel": 1.000000850931606,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 16,
+    "trial": 54,
+    "relerr_kernel": 1.0000000126719626,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 24,
+    "trial": 54,
+    "relerr_kernel": 1.0000000060261074,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 32,
+    "trial": 54,
+    "relerr_kernel": 1.0000001823569395,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 40,
+    "trial": 54,
+    "relerr_kernel": 1.00000012279171,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 48,
+    "trial": 54,
+    "relerr_kernel": 1.0000000803468085,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 56,
+    "trial": 54,
+    "relerr_kernel": 1.0000000621527265,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 64,
+    "trial": 54,
+    "relerr_kernel": 1.0000000396611572,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 72,
+    "trial": 54,
+    "relerr_kernel": 1.0000000316038478,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 80,
+    "trial": 54,
+    "relerr_kernel": 1.0000000440182444,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 16,
+    "trial": 55,
+    "relerr_kernel": 1.0000002497783989,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 24,
+    "trial": 55,
+    "relerr_kernel": 1.0000026675013975,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 32,
+    "trial": 55,
+    "relerr_kernel": 1.0000063287298677,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 40,
+    "trial": 55,
+    "relerr_kernel": 1.0000045100949748,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 48,
+    "trial": 55,
+    "relerr_kernel": 1.00000311891523,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 56,
+    "trial": 55,
+    "relerr_kernel": 1.0000025001905921,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 64,
+    "trial": 55,
+    "relerr_kernel": 1.0000022657474097,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 72,
+    "trial": 55,
+    "relerr_kernel": 1.000001781936626,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 80,
+    "trial": 55,
+    "relerr_kernel": 1.0000014384451112,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 16,
+    "trial": 56,
+    "relerr_kernel": 1.000045408131299,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 24,
+    "trial": 56,
+    "relerr_kernel": 1.0000203744460656,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 32,
+    "trial": 56,
+    "relerr_kernel": 1.0000114847571815,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 40,
+    "trial": 56,
+    "relerr_kernel": 1.0000073753830512,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 48,
+    "trial": 56,
+    "relerr_kernel": 1.0000052063777716,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 56,
+    "trial": 56,
+    "relerr_kernel": 1.0000038429161178,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 64,
+    "trial": 56,
+    "relerr_kernel": 1.000003034230489,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 72,
+    "trial": 56,
+    "relerr_kernel": 1.0000023926847597,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 80,
+    "trial": 56,
+    "relerr_kernel": 1.0000019355220935,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 16,
+    "trial": 57,
+    "relerr_kernel": 1.0000991596922146,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 24,
+    "trial": 57,
+    "relerr_kernel": 1.000044017920041,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 32,
+    "trial": 57,
+    "relerr_kernel": 1.0000247326407166,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 40,
+    "trial": 57,
+    "relerr_kernel": 1.0000158457126036,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 48,
+    "trial": 57,
+    "relerr_kernel": 1.0000109833847017,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 56,
+    "trial": 57,
+    "relerr_kernel": 1.0000080539174023,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 64,
+    "trial": 57,
+    "relerr_kernel": 1.0000061919302927,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 72,
+    "trial": 57,
+    "relerr_kernel": 1.0000049258332637,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 80,
+    "trial": 57,
+    "relerr_kernel": 1.0000039797351838,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 16,
+    "trial": 58,
+    "relerr_kernel": 1.0000004436220533,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 24,
+    "trial": 58,
+    "relerr_kernel": 1.0002402777852055,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 32,
+    "trial": 58,
+    "relerr_kernel": 1.0001355740102869,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 40,
+    "trial": 58,
+    "relerr_kernel": 1.000086750076178,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 48,
+    "trial": 58,
+    "relerr_kernel": 1.0000602267444858,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 56,
+    "trial": 58,
+    "relerr_kernel": 1.0000452170130738,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 64,
+    "trial": 58,
+    "relerr_kernel": 1.0000359966801564,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 72,
+    "trial": 58,
+    "relerr_kernel": 1.0000284563616328,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 80,
+    "trial": 58,
+    "relerr_kernel": 1.0000233318168081,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 16,
+    "trial": 59,
+    "relerr_kernel": 1.000002906083903,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 24,
+    "trial": 59,
+    "relerr_kernel": 1.0000019762700885,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 32,
+    "trial": 59,
+    "relerr_kernel": 1.0000011680492449,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 40,
+    "trial": 59,
+    "relerr_kernel": 1.0000009076710026,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 48,
+    "trial": 59,
+    "relerr_kernel": 1.000000927367697,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 56,
+    "trial": 59,
+    "relerr_kernel": 1.0000010390340421,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 64,
+    "trial": 59,
+    "relerr_kernel": 1.0000007827909074,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 72,
+    "trial": 59,
+    "relerr_kernel": 1.0000006076336618,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 80,
+    "trial": 59,
+    "relerr_kernel": 1.0000004826669475,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 16,
+    "trial": 60,
+    "relerr_kernel": 1.0000400385494677,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 24,
+    "trial": 60,
+    "relerr_kernel": 1.0000177810205788,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 32,
+    "trial": 60,
+    "relerr_kernel": 1.00000999449482,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 40,
+    "trial": 60,
+    "relerr_kernel": 1.0000099068926838,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 48,
+    "trial": 60,
+    "relerr_kernel": 1.0000068765269667,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 56,
+    "trial": 60,
+    "relerr_kernel": 1.000005109149635,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 64,
+    "trial": 60,
+    "relerr_kernel": 1.0000039036171866,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 72,
+    "trial": 60,
+    "relerr_kernel": 1.0000031291403189,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 80,
+    "trial": 60,
+    "relerr_kernel": 1.0000025272607502,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 16,
+    "trial": 61,
+    "relerr_kernel": 1.0000126175242439,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 24,
+    "trial": 61,
+    "relerr_kernel": 1.0000056895862577,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 32,
+    "trial": 61,
+    "relerr_kernel": 1.0000061218634742,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 40,
+    "trial": 61,
+    "relerr_kernel": 1.0000039236397154,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 48,
+    "trial": 61,
+    "relerr_kernel": 1.0000027176378106,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 56,
+    "trial": 61,
+    "relerr_kernel": 1.0000020332855881,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 64,
+    "trial": 61,
+    "relerr_kernel": 1.0000015900781287,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 72,
+    "trial": 61,
+    "relerr_kernel": 1.0000012505860487,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 80,
+    "trial": 61,
+    "relerr_kernel": 1.000001228072902,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 16,
+    "trial": 62,
+    "relerr_kernel": 1.0000041472219505,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 24,
+    "trial": 62,
+    "relerr_kernel": 1.0000018332780525,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 32,
+    "trial": 62,
+    "relerr_kernel": 1.0000010666476147,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 40,
+    "trial": 62,
+    "relerr_kernel": 1.0000006950583327,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 48,
+    "trial": 62,
+    "relerr_kernel": 1.0000004853664752,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 56,
+    "trial": 62,
+    "relerr_kernel": 1.0000003528303762,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 64,
+    "trial": 62,
+    "relerr_kernel": 1.0000002756092203,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 72,
+    "trial": 62,
+    "relerr_kernel": 1.0000002157936865,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 80,
+    "trial": 62,
+    "relerr_kernel": 1.0000002019793162,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 16,
+    "trial": 63,
+    "relerr_kernel": 1.0000001566767094,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 24,
+    "trial": 63,
+    "relerr_kernel": 1.0000000736574157,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 32,
+    "trial": 63,
+    "relerr_kernel": 1.000000038042729,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 40,
+    "trial": 63,
+    "relerr_kernel": 1.0000000557260538,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 48,
+    "trial": 63,
+    "relerr_kernel": 1.0000000359038028,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 56,
+    "trial": 63,
+    "relerr_kernel": 1.0000000374046847,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 64,
+    "trial": 63,
+    "relerr_kernel": 1.0000000274367997,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 72,
+    "trial": 63,
+    "relerr_kernel": 1.000000031352548,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 80,
+    "trial": 63,
+    "relerr_kernel": 1.0000000251199286,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 16,
+    "trial": 64,
+    "relerr_kernel": 1.0000044525975542,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 24,
+    "trial": 64,
+    "relerr_kernel": 1.000004159629892,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 32,
+    "trial": 64,
+    "relerr_kernel": 1.000002316308591,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 40,
+    "trial": 64,
+    "relerr_kernel": 1.0000015209542352,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 48,
+    "trial": 64,
+    "relerr_kernel": 1.0000010441586409,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 56,
+    "trial": 64,
+    "relerr_kernel": 1.000000803937406,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 64,
+    "trial": 64,
+    "relerr_kernel": 1.0000006242599653,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 72,
+    "trial": 64,
+    "relerr_kernel": 1.0000298276895585,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 80,
+    "trial": 64,
+    "relerr_kernel": 1.0000241484923844,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 16,
+    "trial": 65,
+    "relerr_kernel": 1.0000009258001754,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 24,
+    "trial": 65,
+    "relerr_kernel": 1.0000115433641168,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 32,
+    "trial": 65,
+    "relerr_kernel": 1.0000065047014415,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 40,
+    "trial": 65,
+    "relerr_kernel": 1.0000041538032303,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 48,
+    "trial": 65,
+    "relerr_kernel": 1.0000031468501593,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 56,
+    "trial": 65,
+    "relerr_kernel": 1.0008603048406919,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 64,
+    "trial": 65,
+    "relerr_kernel": 1.000658653143422,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 72,
+    "trial": 65,
+    "relerr_kernel": 1.000520427215954,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 80,
+    "trial": 65,
+    "relerr_kernel": 1.0004216067340155,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 16,
+    "trial": 66,
+    "relerr_kernel": 1.0000027446468491,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 24,
+    "trial": 66,
+    "relerr_kernel": 1.0000012296966017,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 32,
+    "trial": 66,
+    "relerr_kernel": 1.0000018792600462,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 40,
+    "trial": 66,
+    "relerr_kernel": 1.0000013213530317,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 48,
+    "trial": 66,
+    "relerr_kernel": 1.000000907535316,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 56,
+    "trial": 66,
+    "relerr_kernel": 1.0000010038576812,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 64,
+    "trial": 66,
+    "relerr_kernel": 1.0000007615493156,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 72,
+    "trial": 66,
+    "relerr_kernel": 1.0000023124670172,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 80,
+    "trial": 66,
+    "relerr_kernel": 1.0000018664650885,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 16,
+    "trial": 67,
+    "relerr_kernel": 1.0000010004855882,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 24,
+    "trial": 67,
+    "relerr_kernel": 1.000033928487805,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 32,
+    "trial": 67,
+    "relerr_kernel": 1.0000190596886724,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 40,
+    "trial": 67,
+    "relerr_kernel": 1.0000121900808827,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 48,
+    "trial": 67,
+    "relerr_kernel": 1.000008447566502,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 56,
+    "trial": 67,
+    "relerr_kernel": 1.0000061937285278,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 64,
+    "trial": 67,
+    "relerr_kernel": 1.0000052859222022,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 72,
+    "trial": 67,
+    "relerr_kernel": 1.0000041733948402,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 80,
+    "trial": 67,
+    "relerr_kernel": 1.0000034554438761,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 16,
+    "trial": 68,
+    "relerr_kernel": 1.0000005187127132,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 24,
+    "trial": 68,
+    "relerr_kernel": 1.000004227152355,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 32,
+    "trial": 68,
+    "relerr_kernel": 1.0020565151633456,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 40,
+    "trial": 68,
+    "relerr_kernel": 1.0013161647302076,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 48,
+    "trial": 68,
+    "relerr_kernel": 1.0009139884819365,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 56,
+    "trial": 68,
+    "relerr_kernel": 1.000674571468334,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 64,
+    "trial": 68,
+    "relerr_kernel": 1.0005164509619255,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 72,
+    "trial": 68,
+    "relerr_kernel": 1.0004080446139823,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 80,
+    "trial": 68,
+    "relerr_kernel": 1.000330515272918,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 16,
+    "trial": 69,
+    "relerr_kernel": 1.0000000660646322,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 24,
+    "trial": 69,
+    "relerr_kernel": 1.0000000546828283,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 32,
+    "trial": 69,
+    "relerr_kernel": 1.0000001345182283,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 40,
+    "trial": 69,
+    "relerr_kernel": 1.000000089624264,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 48,
+    "trial": 69,
+    "relerr_kernel": 1.000000059625874,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 56,
+    "trial": 69,
+    "relerr_kernel": 1.0000000832405342,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 64,
+    "trial": 69,
+    "relerr_kernel": 1.0000001380500836,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 72,
+    "trial": 69,
+    "relerr_kernel": 1.0000001029581174,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 80,
+    "trial": 69,
+    "relerr_kernel": 1.0000000784131469,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 16,
+    "trial": 70,
+    "relerr_kernel": 1.0000002385220135,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 24,
+    "trial": 70,
+    "relerr_kernel": 1.0000001027411467,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 32,
+    "trial": 70,
+    "relerr_kernel": 1.0000000580192294,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 40,
+    "trial": 70,
+    "relerr_kernel": 1.0000001031134338,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 48,
+    "trial": 70,
+    "relerr_kernel": 1.000000075869283,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 56,
+    "trial": 70,
+    "relerr_kernel": 1.0000000853157376,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 64,
+    "trial": 70,
+    "relerr_kernel": 1.0000000936343298,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 72,
+    "trial": 70,
+    "relerr_kernel": 1.0000000724377314,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 80,
+    "trial": 70,
+    "relerr_kernel": 1.0000000802354123,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 16,
+    "trial": 71,
+    "relerr_kernel": 1.0000032592303683,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 24,
+    "trial": 71,
+    "relerr_kernel": 1.0000082650548414,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 32,
+    "trial": 71,
+    "relerr_kernel": 1.0000046297795164,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 40,
+    "trial": 71,
+    "relerr_kernel": 1.000002934909652,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 48,
+    "trial": 71,
+    "relerr_kernel": 1.0000027903259665,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 56,
+    "trial": 71,
+    "relerr_kernel": 1.0000020344150937,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 64,
+    "trial": 71,
+    "relerr_kernel": 1.00000157536796,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 72,
+    "trial": 71,
+    "relerr_kernel": 1.000001278872083,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 80,
+    "trial": 71,
+    "relerr_kernel": 1.0000014874635117,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 16,
+    "trial": 72,
+    "relerr_kernel": 1.000130484131077,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 24,
+    "trial": 72,
+    "relerr_kernel": 1.0000660038893956,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 32,
+    "trial": 72,
+    "relerr_kernel": 1.0000371240293848,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 40,
+    "trial": 72,
+    "relerr_kernel": 1.0000280926082807,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 48,
+    "trial": 72,
+    "relerr_kernel": 1.0000206005842012,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 56,
+    "trial": 72,
+    "relerr_kernel": 1.00001584130299,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 64,
+    "trial": 72,
+    "relerr_kernel": 1.0000125133188378,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 72,
+    "trial": 72,
+    "relerr_kernel": 1.000023815539666,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 80,
+    "trial": 72,
+    "relerr_kernel": 1.0000197448198533,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 16,
+    "trial": 73,
+    "relerr_kernel": 1.0003376363085352,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 24,
+    "trial": 73,
+    "relerr_kernel": 1.0001500515903357,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 32,
+    "trial": 73,
+    "relerr_kernel": 1.0000843861494637,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 40,
+    "trial": 73,
+    "relerr_kernel": 1.0001988126747887,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 48,
+    "trial": 73,
+    "relerr_kernel": 1.0001381050940101,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 56,
+    "trial": 73,
+    "relerr_kernel": 1.0001014419605856,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 64,
+    "trial": 73,
+    "relerr_kernel": 1.000077665646582,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 72,
+    "trial": 73,
+    "relerr_kernel": 1.000061456475186,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 80,
+    "trial": 73,
+    "relerr_kernel": 1.0000497692794301,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 16,
+    "trial": 74,
+    "relerr_kernel": 1.000013797396061,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 24,
+    "trial": 74,
+    "relerr_kernel": 1.0000061248617116,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 32,
+    "trial": 74,
+    "relerr_kernel": 1.0000035265117473,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 40,
+    "trial": 74,
+    "relerr_kernel": 1.0000022489937948,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 48,
+    "trial": 74,
+    "relerr_kernel": 1.0000015699559908,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 56,
+    "trial": 74,
+    "relerr_kernel": 1.0000013243369448,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 64,
+    "trial": 74,
+    "relerr_kernel": 1.0000010084203692,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 72,
+    "trial": 74,
+    "relerr_kernel": 1.0000008036876324,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 80,
+    "trial": 74,
+    "relerr_kernel": 1.000000648619146,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 16,
+    "trial": 75,
+    "relerr_kernel": 1.0000004364051123,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 24,
+    "trial": 75,
+    "relerr_kernel": 1.0000007625694363,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 32,
+    "trial": 75,
+    "relerr_kernel": 1.0000004176558162,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 40,
+    "trial": 75,
+    "relerr_kernel": 1.0000003573211906,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 48,
+    "trial": 75,
+    "relerr_kernel": 1.0000004165074858,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 56,
+    "trial": 75,
+    "relerr_kernel": 1.0000005445926272,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 64,
+    "trial": 75,
+    "relerr_kernel": 1.0000004139830847,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 72,
+    "trial": 75,
+    "relerr_kernel": 1.0000003197807572,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 80,
+    "trial": 75,
+    "relerr_kernel": 1.000002956211061,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 16,
+    "trial": 76,
+    "relerr_kernel": 1.000004583143454,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 24,
+    "trial": 76,
+    "relerr_kernel": 1.0000020875782318,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 32,
+    "trial": 76,
+    "relerr_kernel": 1.0000011673005909,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 40,
+    "trial": 76,
+    "relerr_kernel": 1.0000007404253854,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 48,
+    "trial": 76,
+    "relerr_kernel": 1.0000014919076805,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 56,
+    "trial": 76,
+    "relerr_kernel": 1.0000010916999587,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 64,
+    "trial": 76,
+    "relerr_kernel": 1.0000008653269543,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 72,
+    "trial": 76,
+    "relerr_kernel": 1.0000006804668327,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 80,
+    "trial": 76,
+    "relerr_kernel": 1.0000005569574189,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 16,
+    "trial": 77,
+    "relerr_kernel": 1.0000000585941113,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 24,
+    "trial": 77,
+    "relerr_kernel": 1.0000008041039037,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 32,
+    "trial": 77,
+    "relerr_kernel": 1.000000447696596,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 40,
+    "trial": 77,
+    "relerr_kernel": 1.0000002857221275,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 48,
+    "trial": 77,
+    "relerr_kernel": 1.00000036672483,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 56,
+    "trial": 77,
+    "relerr_kernel": 1.0000002680526587,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 64,
+    "trial": 77,
+    "relerr_kernel": 1.00000020181774,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 72,
+    "trial": 77,
+    "relerr_kernel": 1.0000002535298755,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 80,
+    "trial": 77,
+    "relerr_kernel": 1.0000002036498634,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 16,
+    "trial": 78,
+    "relerr_kernel": 1.0000172016675681,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 24,
+    "trial": 78,
+    "relerr_kernel": 1.0000087491370198,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 32,
+    "trial": 78,
+    "relerr_kernel": 1.0000048621978082,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 40,
+    "trial": 78,
+    "relerr_kernel": 1.000004785585748,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 48,
+    "trial": 78,
+    "relerr_kernel": 1.0000147804264383,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 56,
+    "trial": 78,
+    "relerr_kernel": 1.0000109648662008,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 64,
+    "trial": 78,
+    "relerr_kernel": 1.0000083698655686,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 72,
+    "trial": 78,
+    "relerr_kernel": 1.0000066335060498,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 80,
+    "trial": 78,
+    "relerr_kernel": 1.0000053926764578,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 16,
+    "trial": 79,
+    "relerr_kernel": 1.0000013195103103,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 24,
+    "trial": 79,
+    "relerr_kernel": 1.0000006385257207,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 32,
+    "trial": 79,
+    "relerr_kernel": 1.0000003590424358,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 40,
+    "trial": 79,
+    "relerr_kernel": 1.000000226204536,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 48,
+    "trial": 79,
+    "relerr_kernel": 1.0000010027223787,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 56,
+    "trial": 79,
+    "relerr_kernel": 1.000000807778447,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 64,
+    "trial": 79,
+    "relerr_kernel": 1.000000610654045,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 72,
+    "trial": 79,
+    "relerr_kernel": 1.0000004837358523,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 80,
+    "trial": 79,
+    "relerr_kernel": 1.0000007991175466,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 16,
+    "trial": 80,
+    "relerr_kernel": 1.0000055135521388,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 24,
+    "trial": 80,
+    "relerr_kernel": 1.00000242646445,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 32,
+    "trial": 80,
+    "relerr_kernel": 1.0000139930918606,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 40,
+    "trial": 80,
+    "relerr_kernel": 1.000043227365053,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 48,
+    "trial": 80,
+    "relerr_kernel": 1.0000299770614753,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 56,
+    "trial": 80,
+    "relerr_kernel": 1.0000219940927617,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 64,
+    "trial": 80,
+    "relerr_kernel": 1.0000168314229811,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 72,
+    "trial": 80,
+    "relerr_kernel": 1.0000132884475172,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 80,
+    "trial": 80,
+    "relerr_kernel": 1.000010747153082,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 16,
+    "trial": 81,
+    "relerr_kernel": 1.00000027531616,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 24,
+    "trial": 81,
+    "relerr_kernel": 1.0000007111149467,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 32,
+    "trial": 81,
+    "relerr_kernel": 1.0000003969162512,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 40,
+    "trial": 81,
+    "relerr_kernel": 1.000004308705984,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 48,
+    "trial": 81,
+    "relerr_kernel": 1.0000030012080683,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 56,
+    "trial": 81,
+    "relerr_kernel": 1.0000021996676682,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 64,
+    "trial": 81,
+    "relerr_kernel": 1.0000016799806168,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 72,
+    "trial": 81,
+    "relerr_kernel": 1.0000013234801237,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 80,
+    "trial": 81,
+    "relerr_kernel": 1.000001562164235,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 16,
+    "trial": 82,
+    "relerr_kernel": 1.0017371468468805,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 24,
+    "trial": 82,
+    "relerr_kernel": 1.0007721047606501,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 32,
+    "trial": 82,
+    "relerr_kernel": 1.0004342625675111,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 40,
+    "trial": 82,
+    "relerr_kernel": 1.000277899040687,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 48,
+    "trial": 82,
+    "relerr_kernel": 1.000192969113188,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 56,
+    "trial": 82,
+    "relerr_kernel": 1.0001417626098676,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 64,
+    "trial": 82,
+    "relerr_kernel": 1.0001085611296534,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 72,
+    "trial": 82,
+    "relerr_kernel": 1.0001143708834102,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 80,
+    "trial": 82,
+    "relerr_kernel": 1.0000926569602946,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 16,
+    "trial": 83,
+    "relerr_kernel": 1.0000002545403264,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 24,
+    "trial": 83,
+    "relerr_kernel": 1.0000001567776546,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 32,
+    "trial": 83,
+    "relerr_kernel": 1.000000083494478,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 40,
+    "trial": 83,
+    "relerr_kernel": 1.0000000531680235,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 48,
+    "trial": 83,
+    "relerr_kernel": 1.000000037925446,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 56,
+    "trial": 83,
+    "relerr_kernel": 1.0000004087989007,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 64,
+    "trial": 83,
+    "relerr_kernel": 1.0000003074026498,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 72,
+    "trial": 83,
+    "relerr_kernel": 1.0000002392860146,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 80,
+    "trial": 83,
+    "relerr_kernel": 1.0000001930104534,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 16,
+    "trial": 84,
+    "relerr_kernel": 1.000000521503586,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 24,
+    "trial": 84,
+    "relerr_kernel": 1.000003219772464,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 32,
+    "trial": 84,
+    "relerr_kernel": 1.0000043566276147,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 40,
+    "trial": 84,
+    "relerr_kernel": 1.000002814959239,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 48,
+    "trial": 84,
+    "relerr_kernel": 1.0000019377275589,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 56,
+    "trial": 84,
+    "relerr_kernel": 1.0000014098420504,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 64,
+    "trial": 84,
+    "relerr_kernel": 1.0000012024858507,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 72,
+    "trial": 84,
+    "relerr_kernel": 1.0000009457642212,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 80,
+    "trial": 84,
+    "relerr_kernel": 1.00000075804531,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 16,
+    "trial": 85,
+    "relerr_kernel": 1.0000003737492895,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 24,
+    "trial": 85,
+    "relerr_kernel": 1.0000001624855601,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 32,
+    "trial": 85,
+    "relerr_kernel": 1.0000005630538498,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 40,
+    "trial": 85,
+    "relerr_kernel": 1.0000003683008236,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 48,
+    "trial": 85,
+    "relerr_kernel": 1.0000002582506327,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 56,
+    "trial": 85,
+    "relerr_kernel": 1.0000002295672765,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 64,
+    "trial": 85,
+    "relerr_kernel": 1.0000001690586182,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 72,
+    "trial": 85,
+    "relerr_kernel": 1.000000128700076,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 80,
+    "trial": 85,
+    "relerr_kernel": 1.0000001005342125,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 16,
+    "trial": 86,
+    "relerr_kernel": 1.000005549023915,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 24,
+    "trial": 86,
+    "relerr_kernel": 1.0000089803264571,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 32,
+    "trial": 86,
+    "relerr_kernel": 1.0000054403987146,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 40,
+    "trial": 86,
+    "relerr_kernel": 1.000007464384258,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 48,
+    "trial": 86,
+    "relerr_kernel": 1.0000051586305927,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 56,
+    "trial": 86,
+    "relerr_kernel": 1.0000037765714975,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 64,
+    "trial": 86,
+    "relerr_kernel": 1.000002887313643,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 72,
+    "trial": 86,
+    "relerr_kernel": 1.0000022694855506,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 80,
+    "trial": 86,
+    "relerr_kernel": 1.0000018274141789,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 16,
+    "trial": 87,
+    "relerr_kernel": 1.0000000721296882,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 24,
+    "trial": 87,
+    "relerr_kernel": 1.000000194822835,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 32,
+    "trial": 87,
+    "relerr_kernel": 1.0000001034734691,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 40,
+    "trial": 87,
+    "relerr_kernel": 1.00000006651926,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 48,
+    "trial": 87,
+    "relerr_kernel": 1.0000000408859506,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 56,
+    "trial": 87,
+    "relerr_kernel": 1.000000027508861,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 64,
+    "trial": 87,
+    "relerr_kernel": 1.0000000197591135,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 72,
+    "trial": 87,
+    "relerr_kernel": 1.0000684657765788,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 80,
+    "trial": 87,
+    "relerr_kernel": 1.0000554502172907,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 16,
+    "trial": 88,
+    "relerr_kernel": 1.0000000800413367,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 24,
+    "trial": 88,
+    "relerr_kernel": 1.0000139996339346,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 32,
+    "trial": 88,
+    "relerr_kernel": 1.0000105495292144,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 40,
+    "trial": 88,
+    "relerr_kernel": 1.000006765838572,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 48,
+    "trial": 88,
+    "relerr_kernel": 1.0000133047039175,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 56,
+    "trial": 88,
+    "relerr_kernel": 1.0000097712945457,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 64,
+    "trial": 88,
+    "relerr_kernel": 1.0000076100959423,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 72,
+    "trial": 88,
+    "relerr_kernel": 1.0000060026568371,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 80,
+    "trial": 88,
+    "relerr_kernel": 1.0000048515091517,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 16,
+    "trial": 89,
+    "relerr_kernel": 1.0000841023744844,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 24,
+    "trial": 89,
+    "relerr_kernel": 1.0000370650713528,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 32,
+    "trial": 89,
+    "relerr_kernel": 1.0000215286942706,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 40,
+    "trial": 89,
+    "relerr_kernel": 1.0000138492993396,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 48,
+    "trial": 89,
+    "relerr_kernel": 1.000009526432911,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 56,
+    "trial": 89,
+    "relerr_kernel": 1.000006931537849,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 64,
+    "trial": 89,
+    "relerr_kernel": 1.0000052688743364,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 72,
+    "trial": 89,
+    "relerr_kernel": 1.0000041347107869,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 80,
+    "trial": 89,
+    "relerr_kernel": 1.0000033275315738,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 16,
+    "trial": 90,
+    "relerr_kernel": 1.0000002045225536,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 24,
+    "trial": 90,
+    "relerr_kernel": 1.000000085642939,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 32,
+    "trial": 90,
+    "relerr_kernel": 1.0000000543017777,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 40,
+    "trial": 90,
+    "relerr_kernel": 1.0000000597321184,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 48,
+    "trial": 90,
+    "relerr_kernel": 1.0000000639059174,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 56,
+    "trial": 90,
+    "relerr_kernel": 1.0000000652093688,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 64,
+    "trial": 90,
+    "relerr_kernel": 1.0000000478474556,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 72,
+    "trial": 90,
+    "relerr_kernel": 1.0000000359871177,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 80,
+    "trial": 90,
+    "relerr_kernel": 1.0000000268723448,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 16,
+    "trial": 91,
+    "relerr_kernel": 1.0011062964305162,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 24,
+    "trial": 91,
+    "relerr_kernel": 1.0004925890427094,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 32,
+    "trial": 91,
+    "relerr_kernel": 1.0002771107005675,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 40,
+    "trial": 91,
+    "relerr_kernel": 1.0001773415050226,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 48,
+    "trial": 91,
+    "relerr_kernel": 1.0001231466688343,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 56,
+    "trial": 91,
+    "relerr_kernel": 1.051147098454431,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 64,
+    "trial": 91,
+    "relerr_kernel": 1.0391590205216323,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 72,
+    "trial": 91,
+    "relerr_kernel": 1.0309400713373826,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 80,
+    "trial": 91,
+    "relerr_kernel": 1.0250612030739512,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 16,
+    "trial": 92,
+    "relerr_kernel": 1.0000027186200238,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 24,
+    "trial": 92,
+    "relerr_kernel": 1.000001292459375,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 32,
+    "trial": 92,
+    "relerr_kernel": 1.0000007165325446,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 40,
+    "trial": 92,
+    "relerr_kernel": 1.0000005051041045,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 48,
+    "trial": 92,
+    "relerr_kernel": 1.0000003581839034,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 56,
+    "trial": 92,
+    "relerr_kernel": 1.0000002558249892,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 64,
+    "trial": 92,
+    "relerr_kernel": 1.000000189816593,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 72,
+    "trial": 92,
+    "relerr_kernel": 1.0000001452555103,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 80,
+    "trial": 92,
+    "relerr_kernel": 1.0000001139903825,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 16,
+    "trial": 93,
+    "relerr_kernel": 1.0000003513004103,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 24,
+    "trial": 93,
+    "relerr_kernel": 1.000000561627762,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 32,
+    "trial": 93,
+    "relerr_kernel": 1.000040998058594,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 40,
+    "trial": 93,
+    "relerr_kernel": 1.0000263403432526,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 48,
+    "trial": 93,
+    "relerr_kernel": 1.0000182538051599,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 56,
+    "trial": 93,
+    "relerr_kernel": 1.000013380874501,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 64,
+    "trial": 93,
+    "relerr_kernel": 1.0000102841900644,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 72,
+    "trial": 93,
+    "relerr_kernel": 1.0000081135367904,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 80,
+    "trial": 93,
+    "relerr_kernel": 1.000006554135125,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 16,
+    "trial": 94,
+    "relerr_kernel": 1.001272925943123,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 24,
+    "trial": 94,
+    "relerr_kernel": 1.0005645582359413,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 32,
+    "trial": 94,
+    "relerr_kernel": 1.0003170604831126,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 40,
+    "trial": 94,
+    "relerr_kernel": 1.0002025192664619,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 48,
+    "trial": 94,
+    "relerr_kernel": 1.0001403369017485,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 56,
+    "trial": 94,
+    "relerr_kernel": 1.0001029188792745,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 64,
+    "trial": 94,
+    "relerr_kernel": 1.0000787044502053,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 72,
+    "trial": 94,
+    "relerr_kernel": 1.000062049717251,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 80,
+    "trial": 94,
+    "relerr_kernel": 1.0000501722512019,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 16,
+    "trial": 95,
+    "relerr_kernel": 1.0000151033827116,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 24,
+    "trial": 95,
+    "relerr_kernel": 1.0000067737316694,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 32,
+    "trial": 95,
+    "relerr_kernel": 1.0000177396971928,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 40,
+    "trial": 95,
+    "relerr_kernel": 1.0000122214606282,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 48,
+    "trial": 95,
+    "relerr_kernel": 1.0000084751917635,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 56,
+    "trial": 95,
+    "relerr_kernel": 1.0000071893860945,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 64,
+    "trial": 95,
+    "relerr_kernel": 1.0000055106808425,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 72,
+    "trial": 95,
+    "relerr_kernel": 1.000004343023335,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 80,
+    "trial": 95,
+    "relerr_kernel": 1.00000877738034,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 16,
+    "trial": 96,
+    "relerr_kernel": 1.0000006112381814,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 24,
+    "trial": 96,
+    "relerr_kernel": 1.000000407454838,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 32,
+    "trial": 96,
+    "relerr_kernel": 1.0000002241377492,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 40,
+    "trial": 96,
+    "relerr_kernel": 1.0000001733607264,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 48,
+    "trial": 96,
+    "relerr_kernel": 1.0000001408979549,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 56,
+    "trial": 96,
+    "relerr_kernel": 1.0000127990023489,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 64,
+    "trial": 96,
+    "relerr_kernel": 1.0000097829062016,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 72,
+    "trial": 96,
+    "relerr_kernel": 1.0000078049098078,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 80,
+    "trial": 96,
+    "relerr_kernel": 1.0000063086376803,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 16,
+    "trial": 97,
+    "relerr_kernel": 1.000022416181569,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 24,
+    "trial": 97,
+    "relerr_kernel": 1.0000139101370094,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 32,
+    "trial": 97,
+    "relerr_kernel": 1.0000078123785159,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 40,
+    "trial": 97,
+    "relerr_kernel": 1.0000056373862916,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 48,
+    "trial": 97,
+    "relerr_kernel": 1.0000039047967677,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 56,
+    "trial": 97,
+    "relerr_kernel": 1.000004808929975,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 64,
+    "trial": 97,
+    "relerr_kernel": 1.000003715021669,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 72,
+    "trial": 97,
+    "relerr_kernel": 1.0000029259521201,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 80,
+    "trial": 97,
+    "relerr_kernel": 1.0000023775367906,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 16,
+    "trial": 98,
+    "relerr_kernel": 1.00000001066517,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 24,
+    "trial": 98,
+    "relerr_kernel": 1.0000000019277977,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 32,
+    "trial": 98,
+    "relerr_kernel": 1.000000202698604,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 40,
+    "trial": 98,
+    "relerr_kernel": 1.0000001362078157,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 48,
+    "trial": 98,
+    "relerr_kernel": 1.0000006206801157,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 56,
+    "trial": 98,
+    "relerr_kernel": 1.0000005403260939,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 64,
+    "trial": 98,
+    "relerr_kernel": 1.000000406718878,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 72,
+    "trial": 98,
+    "relerr_kernel": 1.0000003165568663,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 80,
+    "trial": 98,
+    "relerr_kernel": 1.000000253447579,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 16,
+    "trial": 99,
+    "relerr_kernel": 1.000000503423935,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 24,
+    "trial": 99,
+    "relerr_kernel": 1.000004053996726,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 32,
+    "trial": 99,
+    "relerr_kernel": 1.0000313845298237,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 40,
+    "trial": 99,
+    "relerr_kernel": 1.0517116587279476,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 48,
+    "trial": 99,
+    "relerr_kernel": 1.0359108040432456,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 56,
+    "trial": 99,
+    "relerr_kernel": 1.026383385858403,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 64,
+    "trial": 99,
+    "relerr_kernel": 1.0201997383483559,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 72,
+    "trial": 99,
+    "relerr_kernel": 1.0159602591689936,
+    "n_pairs": 10000
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 80,
+    "trial": 99,
+    "relerr_kernel": 1.0129278262037347,
+    "n_pairs": 10000
+  }
+]
