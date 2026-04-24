@@ -1,0 +1,134 @@
+[
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 32,
+    "trial": 0,
+    "relerr_output": 1.2465827590614262,
+    "n_seqs": 16,
+    "seq_len": 140,
+    "layer": 10,
+    "head": 6
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 64,
+    "trial": 0,
+    "relerr_output": 1.2108654964967898,
+    "n_seqs": 16,
+    "seq_len": 140,
+    "layer": 10,
+    "head": 6
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 128,
+    "trial": 0,
+    "relerr_output": 1.1018114536575199,
+    "n_seqs": 16,
+    "seq_len": 140,
+    "layer": 10,
+    "head": 6
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 256,
+    "trial": 0,
+    "relerr_output": 1.137571901183373,
+    "n_seqs": 16,
+    "seq_len": 140,
+    "layer": 10,
+    "head": 6
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 32,
+    "trial": 1,
+    "relerr_output": 1.2158907850277265,
+    "n_seqs": 16,
+    "seq_len": 140,
+    "layer": 10,
+    "head": 6
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 64,
+    "trial": 1,
+    "relerr_output": 1.1083493638467068,
+    "n_seqs": 16,
+    "seq_len": 140,
+    "layer": 10,
+    "head": 6
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 128,
+    "trial": 1,
+    "relerr_output": 1.1894344205673366,
+    "n_seqs": 16,
+    "seq_len": 140,
+    "layer": 10,
+    "head": 6
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 256,
+    "trial": 1,
+    "relerr_output": 1.1423414864138868,
+    "n_seqs": 16,
+    "seq_len": 140,
+    "layer": 10,
+    "head": 6
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 32,
+    "trial": 2,
+    "relerr_output": 1.054947456204663,
+    "n_seqs": 16,
+    "seq_len": 140,
+    "layer": 10,
+    "head": 6
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 64,
+    "trial": 2,
+    "relerr_output": 1.0045179554144084,
+    "n_seqs": 16,
+    "seq_len": 140,
+    "layer": 10,
+    "head": 6
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 128,
+    "trial": 2,
+    "relerr_output": 0.8695558588765312,
+    "n_seqs": 16,
+    "seq_len": 140,
+    "layer": 10,
+    "head": 6
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 256,
+    "trial": 2,
+    "relerr_output": 0.8178536223231431,
+    "n_seqs": 16,
+    "seq_len": 140,
+    "layer": 10,
+    "head": 6
+  }
+]

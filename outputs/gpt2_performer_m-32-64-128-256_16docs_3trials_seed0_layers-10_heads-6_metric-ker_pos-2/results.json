@@ -1,0 +1,122 @@
+[
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 32,
+    "trial": 0,
+    "relerr_kernel": 1.0654904857249408,
+    "n_pairs": 16,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 64,
+    "trial": 0,
+    "relerr_kernel": 0.6636224019728073,
+    "n_pairs": 16,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 128,
+    "trial": 0,
+    "relerr_kernel": 0.730408875852878,
+    "n_pairs": 16,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 256,
+    "trial": 0,
+    "relerr_kernel": 0.7265681839974799,
+    "n_pairs": 16,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 32,
+    "trial": 1,
+    "relerr_kernel": 0.9464323335507915,
+    "n_pairs": 16,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 64,
+    "trial": 1,
+    "relerr_kernel": 0.9640593387675861,
+    "n_pairs": 16,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 128,
+    "trial": 1,
+    "relerr_kernel": 0.8740269458680177,
+    "n_pairs": 16,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 256,
+    "trial": 1,
+    "relerr_kernel": 0.8340783516103597,
+    "n_pairs": 16,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 32,
+    "trial": 2,
+    "relerr_kernel": 0.9711137586209869,
+    "n_pairs": 16,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 64,
+    "trial": 2,
+    "relerr_kernel": 0.970922569675596,
+    "n_pairs": 16,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 128,
+    "trial": 2,
+    "relerr_kernel": 0.9379505658210174,
+    "n_pairs": 16,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 256,
+    "trial": 2,
+    "relerr_kernel": 3.8586568922741398,
+    "n_pairs": 16,
+    "layer": null,
+    "head": null
+  }
+]

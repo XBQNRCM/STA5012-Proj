@@ -30,3 +30,53 @@ def relerr_kernel_pairs(
     mse = ((k_true - k_hat) ** 2).mean()
     denom = (k_true ** 2).mean().clamp_min(1e-12)
     return float((mse / denom).item())
+
+
+@torch.no_grad()
+def output_numer_denom(
+    Q: torch.Tensor,
+    K: torch.Tensor,
+    V: torch.Tensor,
+    phi: FeatureMap,
+    dim_d: int,
+    *,
+    eps: float = 1e-12,
+) -> tuple[float, float]:
+    """返回 (||O - O_hat||_F^2, ||O||_F^2)。Q/K/V 形状 [..., n, d] / [..., n, d_v]。"""
+    dev = Q.device
+    Q64 = Q.detach().double()
+    K64 = K.detach().double()
+    V64 = V.detach().double()
+    phi64 = phi.to(device=dev, dtype=torch.float64)
+
+    # exact softmax attention: A = softmax(QK^T / sqrt(d)), O = A V
+    S = torch.matmul(Q64, K64.transpose(-1, -2)) / math.sqrt(dim_d)
+    A = torch.softmax(S, dim=-1)
+    O = torch.matmul(A, V64)
+
+    # linearized: O_hat_i = phi(q_i)^T (Phi_K^T V) / (phi(q_i)^T sum_l phi(k_l))
+    PhiQ = phi64(Q64)
+    PhiK = phi64(K64)
+    KV = torch.matmul(PhiK.transpose(-1, -2), V64)
+    numer_mat = torch.matmul(PhiQ, KV)
+    phi_k_sum = PhiK.sum(dim=-2, keepdim=True)
+    denom_vec = (PhiQ * phi_k_sum).sum(dim=-1, keepdim=True).clamp_min(eps)
+    O_hat = numer_mat / denom_vec
+
+    num_sq = float(((O - O_hat) ** 2).sum().item())
+    den_sq = float((O ** 2).sum().item())
+    return num_sq, den_sq
+
+
+def relerr_output(
+    Q: torch.Tensor,
+    K: torch.Tensor,
+    V: torch.Tensor,
+    phi: FeatureMap,
+    dim_d: int,
+    *,
+    eps: float = 1e-12,
+) -> float:
+    """RelErr_out = ||AV - AhatV||_F / ||AV||_F，跨 batch 聚合为 sqrt(sum_num / sum_den)。"""
+    num_sq, den_sq = output_numer_denom(Q, K, V, phi, dim_d, eps=eps)
+    return float(math.sqrt(num_sq / max(den_sq, eps)))
