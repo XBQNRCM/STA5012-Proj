@@ -33,26 +33,38 @@ def relerr_kernel_pairs(
 
 
 @torch.no_grad()
-def output_numer_denom(
+def exact_attention_output(
     Q: torch.Tensor,
     K: torch.Tensor,
     V: torch.Tensor,
-    phi: FeatureMap,
     dim_d: int,
+) -> torch.Tensor:
+    """Exact softmax attention output O = softmax(QK^T/sqrt(d))V。"""
+    Q64 = Q.detach().double()
+    K64 = K.detach().double()
+    V64 = V.detach().double()
+    S = torch.matmul(Q64, K64.transpose(-1, -2)) / math.sqrt(dim_d)
+    A = torch.softmax(S, dim=-1)
+    return torch.matmul(A, V64)
+
+
+@torch.no_grad()
+def output_numer_denom_from_exact(
+    Q: torch.Tensor,
+    K: torch.Tensor,
+    V: torch.Tensor,
+    O: torch.Tensor,
+    phi: FeatureMap,
     *,
     eps: float = 1e-12,
 ) -> tuple[float, float]:
-    """返回 (||O - O_hat||_F^2, ||O||_F^2)。Q/K/V 形状 [..., n, d] / [..., n, d_v]。"""
+    """给定 exact O，返回 (||O - O_hat||_F^2, ||O||_F^2)。"""
     dev = Q.device
     Q64 = Q.detach().double()
     K64 = K.detach().double()
     V64 = V.detach().double()
+    O64 = O.detach().to(device=dev, dtype=torch.float64)
     phi64 = phi.to(device=dev, dtype=torch.float64)
-
-    # exact softmax attention: A = softmax(QK^T / sqrt(d)), O = A V
-    S = torch.matmul(Q64, K64.transpose(-1, -2)) / math.sqrt(dim_d)
-    A = torch.softmax(S, dim=-1)
-    O = torch.matmul(A, V64)
 
     # linearized: O_hat_i = phi(q_i)^T (Phi_K^T V) / (phi(q_i)^T sum_l phi(k_l))
     PhiQ = phi64(Q64)
@@ -63,9 +75,24 @@ def output_numer_denom(
     denom_vec = (PhiQ * phi_k_sum).sum(dim=-1, keepdim=True).clamp_min(eps)
     O_hat = numer_mat / denom_vec
 
-    num_sq = float(((O - O_hat) ** 2).sum().item())
-    den_sq = float((O ** 2).sum().item())
+    num_sq = float(((O64 - O_hat) ** 2).sum().item())
+    den_sq = float((O64 ** 2).sum().item())
     return num_sq, den_sq
+
+
+@torch.no_grad()
+def output_numer_denom(
+    Q: torch.Tensor,
+    K: torch.Tensor,
+    V: torch.Tensor,
+    phi: FeatureMap,
+    dim_d: int,
+    *,
+    eps: float = 1e-12,
+) -> tuple[float, float]:
+    """返回 (||O - O_hat||_F^2, ||O||_F^2)。Q/K/V 形状 [..., n, d] / [..., n, d_v]。"""
+    O = exact_attention_output(Q, K, V, dim_d)
+    return output_numer_denom_from_exact(Q, K, V, O, phi, eps=eps)
 
 
 def relerr_output(

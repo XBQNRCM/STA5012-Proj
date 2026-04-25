@@ -61,7 +61,7 @@ def save_results(results, base_dir: Path, run_name: str) -> Path:
     out_dir.mkdir(parents=True, exist_ok=True)
     path = out_dir / "results.json"
     path.write_text(results_to_json(results), encoding="utf-8")
-    print(f"saved → {path}")
+    print(f"saved -> {path}")
     return path
 
 

@@ -40,7 +40,7 @@ def filter_records(records: list[dict], layers: list[int] | None, heads: list[in
 
     if (layers or heads) and not (has_layer or has_head):
         print(
-            "warning: records 中无 layer/head 字段，--layer/--head 过滤被忽略。",
+            "warning: records have no layer/head fields; --layer/--head ignored.",
             file=sys.stderr,
         )
         return records
@@ -73,7 +73,7 @@ def detect_metric_key(records: list[dict]) -> str:
     for key in METRIC_KEYS:
         if any(key in r for r in records):
             return key
-    raise ValueError(f"records 里没有已知的误差字段（{METRIC_KEYS}）。")
+    raise ValueError(f"records have no known metric field ({METRIC_KEYS}).")
 
 
 def compute_agg_error(
@@ -112,7 +112,7 @@ def plot(
     ax.grid(True, linestyle="--", alpha=0.5)
     plt.tight_layout()
     fig.savefig(save_path, dpi=150)
-    print(f"plot saved → {save_path}")
+    print(f"plot saved -> {save_path}")
     plt.close(fig)
 
 
@@ -136,7 +136,7 @@ def main() -> None:
     records = load_results(results_path)
     records = filter_records(records, args.layer, args.head)
     if not records:
-        sys.exit("error: 过滤后无记录，请检查 --layer/--head 参数。")
+        sys.exit("error: no records after filtering; check --layer/--head.")
 
     if args.metric == "auto":
         metric_key = detect_metric_key(records)

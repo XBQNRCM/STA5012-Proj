@@ -7,7 +7,11 @@ from dataclasses import asdict, dataclass
 
 import torch
 
-from src.eval.metrics import output_numer_denom, relerr_kernel_pairs
+from src.eval.metrics import (
+    exact_attention_output,
+    output_numer_denom_from_exact,
+    relerr_kernel_pairs,
+)
 from src.feature_maps import build_feature_map
 from src.feature_maps.base import FeatureMap
 from src.sampling import (
@@ -171,11 +175,12 @@ def run_gaussian_output(
     Q, K, V = sample_qkv_gaussian(
         n_seq, seq_len, dim_d, dim_v, generator=gen, device=device
     )
+    O = exact_attention_output(Q, K, V, dim_d)
     phis = _build_phis_prefix(map_names, dim_d, dims_m, n_trials, seed, device)
 
     results: list[EvalResultOut] = []
     for (imap, trial, dim_m), phi in phis.items():
-        num_sq, den_sq = output_numer_denom(Q, K, V, phi, dim_d)
+        num_sq, den_sq = output_numer_denom_from_exact(Q, K, V, O, phi)
         err = float(math.sqrt(num_sq / max(den_sq, 1e-12)))
         results.append(
             EvalResultOut(
@@ -224,9 +229,10 @@ def run_gpt2_output(
         q_seq = q_seq.to(device=device, dtype=torch.float32)
         k_seq = k_seq.to(device=device, dtype=torch.float32)
         v_seq = v_seq.to(device=device, dtype=torch.float32)
+        O = exact_attention_output(q_seq, k_seq, v_seq, dim_d)
         seq_len = q_seq.shape[-2]
         for (imap, trial, dim_m), phi in phis.items():
-            num_sq, den_sq = output_numer_denom(q_seq, k_seq, v_seq, phi, dim_d)
+            num_sq, den_sq = output_numer_denom_from_exact(q_seq, k_seq, v_seq, O, phi)
             entry = acc[(imap, trial, dim_m, li, hi)]
             entry[0] += num_sq
             entry[1] += den_sq

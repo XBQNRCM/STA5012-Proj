@@ -13,39 +13,46 @@
 
 **最好结果**
 
-| Setting | 文件 | 关键数值 |
-|---|---|---|
-| Gaussian, `RelErr_ker`, 1000 trials, seed 42, m ∈ {16, 24, 32, 40, 48, 56, 64, 72, 80} | `outputs/gaussian_performer_m-16-24-32-40-48-56-64-72-80_10000pairs_1000trials_seed42/` | mean RelErr_ker 从 **1.49×10⁶ (m=16) → 6.1×10⁴ (m=80)**，严格单调下降 |
-| GPT-2 + WikiText, `RelErr_ker`, 5000 trials, seed 42, layers {2,4,6,8,10} × heads {2,4,6,8,10}, 1000 docs | `outputs/gpt2_performer_m-16-24-32-40-48-56-64-72-80_1000docs_5000trials_seed42_layers-2-4-6-8-10_heads-2-4-6-8-10_pos-2/` | mean RelErr_ker 从 **1.0273 (m=16) → 1.0017 (m=80)**，平稳逼近 1 的下界 |
+| Setting | 指标 | trials | 数据规模 | 图 |
+|---|---:|---:|---|---|
+| Gaussian | `RelErr_ker` mean | 1000 | 10000 pairs, seed 42 | `outputs/gaussian_performer_m-16-24-32-40-48-56-64-72-80_10000pairs_1000trials_seed42/relerr_kernel_vs_dim_mean.png` |
+| GPT-2 + WikiText | `RelErr_ker` mean | 5000 | 1000 docs, layers {2,4,6,8,10}, heads {2,4,6,8,10} | `outputs/gpt2_performer_m-16-24-32-40-48-56-64-72-80_1000docs_5000trials_seed42_layers-2-4-6-8-10_heads-2-4-6-8-10_pos-2/error_vs_dim.png` |
 
-> GPT-2 setting 的 RelErr_ker 相比 Gaussian 数值小 5–6 个数量级，是因为 `E[K²]` 在真实 GPT-2 激活上远大（head 激活多尖锐），分母把相同方差的分子压了回去。
+**最好数值**
 
----
+- Gaussian `RelErr_ker`: **1.489e6 (m=16) → 6.388e4 (m=80)**，1000 trials 后 mean 曲线严格下降。
+- GPT-2 `RelErr_ker` 5000 trials: **1.0273 (m=16) → 1.0017 (m=80)**，整体接近 1。
 
-### 2026-04-24
+## 2026-04-24
 
 **做了什么**
 
-1. 识别到 intro 要求的「次指标 `RelErr_out`」未实现，补齐。
-2. 在 `src/eval/metrics.py` 新增 `output_numer_denom` 与 `relerr_output`，按 float64 计算
-   - exact：`A = softmax(QKᵀ/√d)`，`O = AV`
-   - linear：`Ô_i = φ(qᵢ)ᵀ(Φ_KᵀV) / (φ(qᵢ)ᵀΣₗφ(kₗ))`
-   - 跨序列聚合 `sqrt(ΣN_b / ΣD_b)` 而非先求 per-seq ratio 再平均。
-3. 新增 `sample_qkv_gaussian` 与 GPT-2 序列级流式采样 `iter_qkv_gpt2_wikitext`（含 V、不缓存全量 QKV）。
-4. 在 `run_eval.py` 加入 `--metric ker|out|both`、`--n-seq --seq-len --dim-v`；`EvalResult(Out)` 增加 `layer/head` 字段，顺便修复 `plot_error_vs_dim.py --layer/--head` 过滤此前失效的 bug。
-5. `plot_error_vs_dim.py` 支持 `--agg {median,mean,geomean}`、`--metric {auto,ker,out}`、`--logy`；默认 `median`。
-6. `_load_wikitext_rows` 加三级 fallback：本地 parquet → hf-mirror → HF 原 script；并补写离线下载命令到 README。
+1. 补齐 intro 里要求的 `RelErr_out = ||AV - AhatV||_F / ||AV||_F`。
+2. 新增 `sample_qkv_gaussian`、`iter_qkv_gpt2_wikitext`，支持序列级 Q/K/V 评测。
+3. `run_eval.py` 新增 `--metric ker|out|both`。
+4. `plot_error_vs_dim.py` 新增 `--agg mean|median|geomean` 与 `--layer/--head` 真过滤。
 
-**最好结果（今日新指标）**
+## 2026-04-25
 
-| Setting | 文件 | 关键数值 |
-|---|---|---|
-| Gaussian, `RelErr_out`, 5 trials, seed 0, n_seq=32, seq_len=128 | `outputs/gaussian_performer_m-32-64-128-256_32seq-128len_5trials_seed0_metric-out/` | median RelErr_out **2.649 (m=32) → 2.268 (m=256)**，**严格单调** |
-| GPT-2 + WikiText, `RelErr_out`, 3 trials, seed 0, layer 10 head 6, 16 docs, max_len 256 | `outputs/gpt2_performer_m-32-64-128-256_16docs_3trials_seed0_layers-10_heads-6_metric-out/` | median RelErr_out **1.216 (m=32) → 1.102 (m=128)**，m=256 3 trials 小幅抬头属 trial 方差 |
-| GPT-2 跨 layer × head 抽样, `RelErr_out`, 2 trials, layers {0,5,10} × heads {0,6}, 8 docs | `outputs/gpt2_performer_m-32-64-128_8docs_2trials_seed0_layers-0-5-10_heads-0-6_metric-out/` | 36 条记录，`layer/head` 字段正确写入；`--layer 10 --head 6` 过滤后 6 条单调下降，**过滤 bug 已修复** |
+**做了什么**
 
-**本次改动带来的核心观察**
+1. 用本地环境补跑 1000 trials 的 `RelErr_out`。
+2. 为两种 setting、两种指标统一保存 mean 曲线图片。
+3. 整理 `outputs/`：删除小样本旧结果，只保留 1000-trial 主结果和一个 5000-trial 高质量参考结果。
+4. 优化 `RelErr_out` 运行：exact `O=AV` 对同一批 Q/K/V 只计算一次，避免 1000 trials 重复算 exact softmax attention。
 
-- `RelErr_out` 在所有 setting 下均**随 m 稳定单调**，只要 3–5 trials 就能看到干净曲线；
-- `RelErr_ker` 的「看起来不单调」是**重尾小样本问题**，不是指标实现错误；
-- GPT-2 上同样的 Performer，`RelErr_out` 数值（~1.1）比 Gaussian（~2.3）**反而更小**——和 intro 提示的「真实 head 有稀疏性，softmax 组合后误差被部分抵消」一致。
+**1000 trials 主结果**
+
+| Setting | 指标 | 数据规模 | m=16 | m=80 | 图 |
+|---|---:|---|---:|---:|---|
+| Gaussian | `RelErr_ker` mean | 10000 pairs | 1.489e6 | 6.388e4 | `outputs/gaussian_performer_m-16-24-32-40-48-56-64-72-80_10000pairs_1000trials_seed42/relerr_kernel_vs_dim_mean.png` |
+| Gaussian | `RelErr_out` mean | 8 seq × 64 len | 2.2550 | 2.0321 | `outputs/gaussian_performer_m-16-24-32-40-48-56-64-72-80_8seq-64len_1000trials_seed42_metric-out/relerr_output_vs_dim_mean.png` |
+| GPT-2 + WikiText | `RelErr_ker` mean | 400 docs, layers {2,4,6,8,10}, heads {2,4,6,8,10} | 1.0026 | 1.0078 | `outputs/gpt2_performer_m-16-24-32-40-48-56-64-72-80_400docs_1000trials_seed42_layers-2-4-6-8-10_heads-2-4-6-8-10_pos-2/relerr_kernel_vs_dim_mean.png` |
+| GPT-2 + WikiText | `RelErr_out` mean | 8 docs, layer 10 head 6 | 1.1968 | 1.0739 | `outputs/gpt2_performer_m-16-24-32-40-48-56-64-72-80_8docs_1000trials_seed42_layers-10_heads-6_metric-out/relerr_output_vs_dim_mean.png` |
+
+**观察**
+
+- `RelErr_out` 在 Gaussian 与 GPT-2 两种 setting 下都随 m 稳定下降，比 `RelErr_ker` 更适合展示 m 增大带来的改善。
+- Gaussian `RelErr_ker` 即使用 1000 trials，数值仍远大于 `RelErr_out`，说明 pair-level kernel MSE 被极端样本主导。
+- GPT-2 `RelErr_ker` 在 1000 trials 下接近 1，但 mean 曲线仍有轻微波动；5000 trials 版本更平滑，建议作为最终报告参考图。
+

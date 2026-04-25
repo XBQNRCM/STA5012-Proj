@@ -67,6 +67,8 @@ def _load_wikitext_rows(n_docs: int) -> list[str]:
 def _load_gpt2(model_path: str):
     """Lazy import of transformers to keep Gaussian path independent."""
     from transformers import AutoModelForCausalLM, AutoTokenizer  # lazy import
+    from transformers.utils import logging as hf_logging
+    hf_logging.disable_progress_bar()
     tok = AutoTokenizer.from_pretrained(model_path)
     model = AutoModelForCausalLM.from_pretrained(model_path)
     return tok, model
@@ -115,7 +117,7 @@ def collect_qk_gpt2_wikitext(
     dev = torch.device(device)
 
     with torch.no_grad():
-        for text in tqdm(rows[:n_docs], desc="GPT-2 forward"):
+        for text in tqdm(rows[:n_docs], desc="GPT-2 forward", ascii=True):
             enc = tok(text, return_tensors="pt", truncation=True, max_length=max_length)
             input_ids = enc["input_ids"].to(dev)
             seq_len = input_ids.shape[1]
@@ -190,7 +192,7 @@ def iter_qkv_gpt2_wikitext(
     dev = torch.device(device)
     try:
         with torch.no_grad():
-            for doc_idx, text in enumerate(tqdm(rows, desc="GPT-2 forward (seq)")):
+            for doc_idx, text in enumerate(tqdm(rows, desc="GPT-2 forward (seq)", ascii=True)):
                 enc = tok(text, return_tensors="pt", truncation=True, max_length=max_length)
                 input_ids = enc["input_ids"].to(dev)
                 storage.clear()
