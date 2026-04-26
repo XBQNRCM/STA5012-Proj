@@ -151,3 +151,83 @@ class RALAPerformerFeatureMap(PerformerFeatureMap):
         h = super().forward(x)
         h = h * self._gamma(x).to(dtype=h.dtype)
         return self._mix_channels(h)
+
+
+class CosinePerformerFeatureMap(PerformerFeatureMap):
+    """
+    余弦归一化 Performer。
+
+    先把输入向量投影到单位球面，再进入 Performer feature map：
+        x_tilde = x / (||x|| + eps)
+
+    该 map 有意去掉模长信息，用来测试 GPT-2 Q/K 长度波动是否会干扰随机特征近似。
+    """
+
+    def __init__(
+        self,
+        dim_d: int,
+        dim_m: int,
+        *,
+        omega: torch.Tensor | None = None,
+        generator: torch.Generator | None = None,
+        cosine_eps: float = 1e-6,
+        **kwargs,
+    ) -> None:
+        super().__init__(dim_d, dim_m, omega=omega, generator=generator)
+        self.cosine_eps = cosine_eps
+
+    def forward(self, x: torch.Tensor) -> torch.Tensor:
+        norm = x.norm(dim=-1, keepdim=True).clamp_min(self.cosine_eps)
+        return super().forward(x / norm)
+
+
+class BiasPerformerFeatureMap(FeatureMap):
+    """
+    Bias-augmented Performer。
+
+    用 dim_m-1 个 Performer 随机特征加 1 个常数通道：
+        phi_bias(x) = [phi_performer(x), bias_value]
+
+    因此内积约为 Performer kernel estimate + bias_value^2，用于测试常数项是否能改善
+    exp(0) 附近的小点积区域。
+    """
+
+    def __init__(
+        self,
+        dim_d: int,
+        dim_m: int,
+        *,
+        omega: torch.Tensor | None = None,
+        generator: torch.Generator | None = None,
+        bias_value: float = 1.0,
+        **kwargs,
+    ) -> None:
+        super().__init__()
+        if dim_m < 2:
+            raise ValueError("bias_performer requires dim_m >= 2")
+        self.dim_d = dim_d
+        self.dim_m = dim_m
+        self.dim_random = dim_m - 1
+        self.bias_value = bias_value
+
+        if omega is not None:
+            if omega.shape[1] != dim_d or omega.shape[0] < self.dim_random:
+                raise ValueError(
+                    f"omega must have at least [{self.dim_random}, {dim_d}], got {list(omega.shape)}"
+                )
+            w = omega[: self.dim_random]
+        else:
+            w = torch.randn(self.dim_random, dim_d, generator=generator)
+        self.register_buffer("omega", w)
+
+    def forward(self, x: torch.Tensor) -> torch.Tensor:
+        z = x * (self.dim_d ** -0.25)
+        log_h = z @ self.omega.T - (z * z).sum(dim=-1, keepdim=True) / 2.0
+        random_features = torch.exp(log_h) / math.sqrt(self.dim_random)
+        bias = torch.full(
+            (*x.shape[:-1], 1),
+            self.bias_value,
+            device=x.device,
+            dtype=random_features.dtype,
+        )
+        return torch.cat([random_features, bias], dim=-1)

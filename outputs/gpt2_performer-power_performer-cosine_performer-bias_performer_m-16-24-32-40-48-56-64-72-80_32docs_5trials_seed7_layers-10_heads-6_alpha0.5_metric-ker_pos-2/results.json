@@ -1,0 +1,1802 @@
+[
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 16,
+    "trial": 0,
+    "relerr_kernel": 1.0456783769993219,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 24,
+    "trial": 0,
+    "relerr_kernel": 1.0121316379557235,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 32,
+    "trial": 0,
+    "relerr_kernel": 1.0004592157565753,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 40,
+    "trial": 0,
+    "relerr_kernel": 0.9967406622686585,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 48,
+    "trial": 0,
+    "relerr_kernel": 0.995166661664557,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 56,
+    "trial": 0,
+    "relerr_kernel": 0.9940619102683896,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 64,
+    "trial": 0,
+    "relerr_kernel": 0.9935370773538926,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 72,
+    "trial": 0,
+    "relerr_kernel": 0.9929592053225414,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 80,
+    "trial": 0,
+    "relerr_kernel": 0.9922839991596154,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 16,
+    "trial": 1,
+    "relerr_kernel": 0.988455620572114,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 24,
+    "trial": 1,
+    "relerr_kernel": 0.9904255164039745,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 32,
+    "trial": 1,
+    "relerr_kernel": 0.9921744982588723,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 40,
+    "trial": 1,
+    "relerr_kernel": 0.9921347378008483,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 48,
+    "trial": 1,
+    "relerr_kernel": 0.6765357464210684,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 56,
+    "trial": 1,
+    "relerr_kernel": 0.6897336457479895,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 64,
+    "trial": 1,
+    "relerr_kernel": 0.7074715882314475,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 72,
+    "trial": 1,
+    "relerr_kernel": 0.7250405059301062,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 80,
+    "trial": 1,
+    "relerr_kernel": 0.7405542561476942,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 16,
+    "trial": 2,
+    "relerr_kernel": 96.9940143385999,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 24,
+    "trial": 2,
+    "relerr_kernel": 43.60325817472173,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 32,
+    "trial": 2,
+    "relerr_kernel": 24.929370509833554,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 40,
+    "trial": 2,
+    "relerr_kernel": 16.278414572779212,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 48,
+    "trial": 2,
+    "relerr_kernel": 11.591166843201647,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 56,
+    "trial": 2,
+    "relerr_kernel": 8.76678062572197,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 64,
+    "trial": 2,
+    "relerr_kernel": 289097.2223921474,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 72,
+    "trial": 2,
+    "relerr_kernel": 228339.94644895635,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 80,
+    "trial": 2,
+    "relerr_kernel": 184896.67321464358,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 16,
+    "trial": 3,
+    "relerr_kernel": 0.9987047293741377,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 24,
+    "trial": 3,
+    "relerr_kernel": 0.9990635860602536,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 32,
+    "trial": 3,
+    "relerr_kernel": 0.9990512926432628,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 40,
+    "trial": 3,
+    "relerr_kernel": 0.9995706296686386,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 48,
+    "trial": 3,
+    "relerr_kernel": 0.996852477232869,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 56,
+    "trial": 3,
+    "relerr_kernel": 0.9962380109860484,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 64,
+    "trial": 3,
+    "relerr_kernel": 0.9925838931731061,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 72,
+    "trial": 3,
+    "relerr_kernel": 0.9915668420121099,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 80,
+    "trial": 3,
+    "relerr_kernel": 0.9921071907331397,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 16,
+    "trial": 4,
+    "relerr_kernel": 0.9852317289593847,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 24,
+    "trial": 4,
+    "relerr_kernel": 0.9894935684516992,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 32,
+    "trial": 4,
+    "relerr_kernel": 0.9771433070371274,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 40,
+    "trial": 4,
+    "relerr_kernel": 0.975053876493855,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 48,
+    "trial": 4,
+    "relerr_kernel": 0.9757268354367857,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 56,
+    "trial": 4,
+    "relerr_kernel": 0.9771383998410027,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 64,
+    "trial": 4,
+    "relerr_kernel": 478.68754333327837,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 72,
+    "trial": 4,
+    "relerr_kernel": 374.948286902711,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "performer",
+    "dim_m": 80,
+    "trial": 4,
+    "relerr_kernel": 301.0759366693951,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "power_performer",
+    "dim_m": 16,
+    "trial": 0,
+    "relerr_kernel": 0.833875452930886,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "power_performer",
+    "dim_m": 24,
+    "trial": 0,
+    "relerr_kernel": 0.8756664273976209,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "power_performer",
+    "dim_m": 32,
+    "trial": 0,
+    "relerr_kernel": 0.8801308004911463,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "power_performer",
+    "dim_m": 40,
+    "trial": 0,
+    "relerr_kernel": 0.8634129395922108,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "power_performer",
+    "dim_m": 48,
+    "trial": 0,
+    "relerr_kernel": 0.7203353085907087,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "power_performer",
+    "dim_m": 56,
+    "trial": 0,
+    "relerr_kernel": 0.7495064536303927,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "power_performer",
+    "dim_m": 64,
+    "trial": 0,
+    "relerr_kernel": 0.7730782389854404,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "power_performer",
+    "dim_m": 72,
+    "trial": 0,
+    "relerr_kernel": 0.7943022450393191,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "power_performer",
+    "dim_m": 80,
+    "trial": 0,
+    "relerr_kernel": 0.811376046685389,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "power_performer",
+    "dim_m": 16,
+    "trial": 1,
+    "relerr_kernel": 0.6666971916729226,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "power_performer",
+    "dim_m": 24,
+    "trial": 1,
+    "relerr_kernel": 296821.51030956605,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "power_performer",
+    "dim_m": 32,
+    "trial": 1,
+    "relerr_kernel": 166949.20725376473,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "power_performer",
+    "dim_m": 40,
+    "trial": 1,
+    "relerr_kernel": 106839.34966300246,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "power_performer",
+    "dim_m": 48,
+    "trial": 1,
+    "relerr_kernel": 74188.42174248165,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "power_performer",
+    "dim_m": 56,
+    "trial": 1,
+    "relerr_kernel": 54501.57762229381,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "power_performer",
+    "dim_m": 64,
+    "trial": 1,
+    "relerr_kernel": 41724.64277103765,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "power_performer",
+    "dim_m": 72,
+    "trial": 1,
+    "relerr_kernel": 32966.7356242157,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "power_performer",
+    "dim_m": 80,
+    "trial": 1,
+    "relerr_kernel": 26701.06924045206,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "power_performer",
+    "dim_m": 16,
+    "trial": 2,
+    "relerr_kernel": 0.7480508140846693,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "power_performer",
+    "dim_m": 24,
+    "trial": 2,
+    "relerr_kernel": 0.8221220362851274,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "power_performer",
+    "dim_m": 32,
+    "trial": 2,
+    "relerr_kernel": 0.8671083623112066,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "power_performer",
+    "dim_m": 40,
+    "trial": 2,
+    "relerr_kernel": 0.8881746773184668,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "power_performer",
+    "dim_m": 48,
+    "trial": 2,
+    "relerr_kernel": 0.900272872267013,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "power_performer",
+    "dim_m": 56,
+    "trial": 2,
+    "relerr_kernel": 0.9029531547972698,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "power_performer",
+    "dim_m": 64,
+    "trial": 2,
+    "relerr_kernel": 0.8674213847154654,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "power_performer",
+    "dim_m": 72,
+    "trial": 2,
+    "relerr_kernel": 0.8757179606910748,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "power_performer",
+    "dim_m": 80,
+    "trial": 2,
+    "relerr_kernel": 0.876553104879749,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "power_performer",
+    "dim_m": 16,
+    "trial": 3,
+    "relerr_kernel": 0.9829970133125545,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "power_performer",
+    "dim_m": 24,
+    "trial": 3,
+    "relerr_kernel": 1.5036883278819655,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "power_performer",
+    "dim_m": 32,
+    "trial": 3,
+    "relerr_kernel": 1.2448312777567236,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "power_performer",
+    "dim_m": 40,
+    "trial": 3,
+    "relerr_kernel": 1.2389439636679298,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "power_performer",
+    "dim_m": 48,
+    "trial": 3,
+    "relerr_kernel": 1.145404749784516,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "power_performer",
+    "dim_m": 56,
+    "trial": 3,
+    "relerr_kernel": 1.09093033429036,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "power_performer",
+    "dim_m": 64,
+    "trial": 3,
+    "relerr_kernel": 1.3627375803459338,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "power_performer",
+    "dim_m": 72,
+    "trial": 3,
+    "relerr_kernel": 1.280121217415205,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "power_performer",
+    "dim_m": 80,
+    "trial": 3,
+    "relerr_kernel": 1.2133997592226524,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "power_performer",
+    "dim_m": 16,
+    "trial": 4,
+    "relerr_kernel": 1.017513697160011,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "power_performer",
+    "dim_m": 24,
+    "trial": 4,
+    "relerr_kernel": 0.8324460852433753,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "power_performer",
+    "dim_m": 32,
+    "trial": 4,
+    "relerr_kernel": 0.837997461943916,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "power_performer",
+    "dim_m": 40,
+    "trial": 4,
+    "relerr_kernel": 0.83868262562559,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "power_performer",
+    "dim_m": 48,
+    "trial": 4,
+    "relerr_kernel": 0.8553487994243322,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "power_performer",
+    "dim_m": 56,
+    "trial": 4,
+    "relerr_kernel": 0.8684011335226576,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "power_performer",
+    "dim_m": 64,
+    "trial": 4,
+    "relerr_kernel": 0.8795655910753324,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "power_performer",
+    "dim_m": 72,
+    "trial": 4,
+    "relerr_kernel": 0.8877302574137367,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "power_performer",
+    "dim_m": 80,
+    "trial": 4,
+    "relerr_kernel": 0.8839406399327472,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "cosine_performer",
+    "dim_m": 16,
+    "trial": 0,
+    "relerr_kernel": 0.8285650043160454,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "cosine_performer",
+    "dim_m": 24,
+    "trial": 0,
+    "relerr_kernel": 0.8207767327429893,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "cosine_performer",
+    "dim_m": 32,
+    "trial": 0,
+    "relerr_kernel": 0.8085157655532144,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "cosine_performer",
+    "dim_m": 40,
+    "trial": 0,
+    "relerr_kernel": 0.8057986431700825,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "cosine_performer",
+    "dim_m": 48,
+    "trial": 0,
+    "relerr_kernel": 0.7972393988177465,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "cosine_performer",
+    "dim_m": 56,
+    "trial": 0,
+    "relerr_kernel": 0.8076970848002855,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "cosine_performer",
+    "dim_m": 64,
+    "trial": 0,
+    "relerr_kernel": 0.8004704804680676,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "cosine_performer",
+    "dim_m": 72,
+    "trial": 0,
+    "relerr_kernel": 0.7964216703864594,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "cosine_performer",
+    "dim_m": 80,
+    "trial": 0,
+    "relerr_kernel": 0.7996733734196227,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "cosine_performer",
+    "dim_m": 16,
+    "trial": 1,
+    "relerr_kernel": 0.8293413648093898,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "cosine_performer",
+    "dim_m": 24,
+    "trial": 1,
+    "relerr_kernel": 0.8142615645265628,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "cosine_performer",
+    "dim_m": 32,
+    "trial": 1,
+    "relerr_kernel": 0.8137722048322567,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "cosine_performer",
+    "dim_m": 40,
+    "trial": 1,
+    "relerr_kernel": 0.801065707161002,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "cosine_performer",
+    "dim_m": 48,
+    "trial": 1,
+    "relerr_kernel": 0.7959021361720866,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "cosine_performer",
+    "dim_m": 56,
+    "trial": 1,
+    "relerr_kernel": 0.7750512148590135,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "cosine_performer",
+    "dim_m": 64,
+    "trial": 1,
+    "relerr_kernel": 0.7856465872564273,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "cosine_performer",
+    "dim_m": 72,
+    "trial": 1,
+    "relerr_kernel": 0.7902061344515923,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "cosine_performer",
+    "dim_m": 80,
+    "trial": 1,
+    "relerr_kernel": 0.7861382886298387,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "cosine_performer",
+    "dim_m": 16,
+    "trial": 2,
+    "relerr_kernel": 0.7692322011469743,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "cosine_performer",
+    "dim_m": 24,
+    "trial": 2,
+    "relerr_kernel": 0.7686527976691387,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "cosine_performer",
+    "dim_m": 32,
+    "trial": 2,
+    "relerr_kernel": 0.7850532378139532,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "cosine_performer",
+    "dim_m": 40,
+    "trial": 2,
+    "relerr_kernel": 0.7949511520847586,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "cosine_performer",
+    "dim_m": 48,
+    "trial": 2,
+    "relerr_kernel": 0.7813089053920717,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "cosine_performer",
+    "dim_m": 56,
+    "trial": 2,
+    "relerr_kernel": 0.7845618520362384,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "cosine_performer",
+    "dim_m": 64,
+    "trial": 2,
+    "relerr_kernel": 0.7949026605028995,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "cosine_performer",
+    "dim_m": 72,
+    "trial": 2,
+    "relerr_kernel": 0.800150181297866,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "cosine_performer",
+    "dim_m": 80,
+    "trial": 2,
+    "relerr_kernel": 0.7973936119840761,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "cosine_performer",
+    "dim_m": 16,
+    "trial": 3,
+    "relerr_kernel": 0.8774611405692198,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "cosine_performer",
+    "dim_m": 24,
+    "trial": 3,
+    "relerr_kernel": 0.8572672045419495,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "cosine_performer",
+    "dim_m": 32,
+    "trial": 3,
+    "relerr_kernel": 0.8287301851669863,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "cosine_performer",
+    "dim_m": 40,
+    "trial": 3,
+    "relerr_kernel": 0.8196642390383749,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "cosine_performer",
+    "dim_m": 48,
+    "trial": 3,
+    "relerr_kernel": 0.8156668566601062,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "cosine_performer",
+    "dim_m": 56,
+    "trial": 3,
+    "relerr_kernel": 0.8225936666441624,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "cosine_performer",
+    "dim_m": 64,
+    "trial": 3,
+    "relerr_kernel": 0.8234324878178491,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "cosine_performer",
+    "dim_m": 72,
+    "trial": 3,
+    "relerr_kernel": 0.8212318387358,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "cosine_performer",
+    "dim_m": 80,
+    "trial": 3,
+    "relerr_kernel": 0.8253136591013595,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "cosine_performer",
+    "dim_m": 16,
+    "trial": 4,
+    "relerr_kernel": 0.8530533059124444,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "cosine_performer",
+    "dim_m": 24,
+    "trial": 4,
+    "relerr_kernel": 0.8366935670207126,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "cosine_performer",
+    "dim_m": 32,
+    "trial": 4,
+    "relerr_kernel": 0.8253132160223887,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "cosine_performer",
+    "dim_m": 40,
+    "trial": 4,
+    "relerr_kernel": 0.8341094874914776,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "cosine_performer",
+    "dim_m": 48,
+    "trial": 4,
+    "relerr_kernel": 0.8277211516776309,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "cosine_performer",
+    "dim_m": 56,
+    "trial": 4,
+    "relerr_kernel": 0.8330294613463587,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "cosine_performer",
+    "dim_m": 64,
+    "trial": 4,
+    "relerr_kernel": 0.8258821244157993,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "cosine_performer",
+    "dim_m": 72,
+    "trial": 4,
+    "relerr_kernel": 0.8209124656980484,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "cosine_performer",
+    "dim_m": 80,
+    "trial": 4,
+    "relerr_kernel": 0.8154319422670913,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "bias_performer",
+    "dim_m": 16,
+    "trial": 0,
+    "relerr_kernel": 0.8250371861583011,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "bias_performer",
+    "dim_m": 24,
+    "trial": 0,
+    "relerr_kernel": 0.8744998441139111,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "bias_performer",
+    "dim_m": 32,
+    "trial": 0,
+    "relerr_kernel": 0.8583529315378146,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "bias_performer",
+    "dim_m": 40,
+    "trial": 0,
+    "relerr_kernel": 11.515620972572535,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "bias_performer",
+    "dim_m": 48,
+    "trial": 0,
+    "relerr_kernel": 7.432368713208855,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "bias_performer",
+    "dim_m": 56,
+    "trial": 0,
+    "relerr_kernel": 5.100128942258681,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "bias_performer",
+    "dim_m": 64,
+    "trial": 0,
+    "relerr_kernel": 3.6636179463978467,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "bias_performer",
+    "dim_m": 72,
+    "trial": 0,
+    "relerr_kernel": 2.7373154946568645,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "bias_performer",
+    "dim_m": 80,
+    "trial": 0,
+    "relerr_kernel": 2.1035023615103277,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "bias_performer",
+    "dim_m": 16,
+    "trial": 1,
+    "relerr_kernel": 0.8224617204357971,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "bias_performer",
+    "dim_m": 24,
+    "trial": 1,
+    "relerr_kernel": 0.8261473594651549,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "bias_performer",
+    "dim_m": 32,
+    "trial": 1,
+    "relerr_kernel": 0.8257155816028818,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "bias_performer",
+    "dim_m": 40,
+    "trial": 1,
+    "relerr_kernel": 9.789740502479887,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "bias_performer",
+    "dim_m": 48,
+    "trial": 1,
+    "relerr_kernel": 7.06640712682492,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "bias_performer",
+    "dim_m": 56,
+    "trial": 1,
+    "relerr_kernel": 5.428237531961141,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "bias_performer",
+    "dim_m": 64,
+    "trial": 1,
+    "relerr_kernel": 4.359827189007557,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "bias_performer",
+    "dim_m": 72,
+    "trial": 1,
+    "relerr_kernel": 3.6403585860163323,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "bias_performer",
+    "dim_m": 80,
+    "trial": 1,
+    "relerr_kernel": 3.121841976576045,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "bias_performer",
+    "dim_m": 16,
+    "trial": 2,
+    "relerr_kernel": 0.8047699949265394,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "bias_performer",
+    "dim_m": 24,
+    "trial": 2,
+    "relerr_kernel": 0.8143036907401904,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "bias_performer",
+    "dim_m": 32,
+    "trial": 2,
+    "relerr_kernel": 0.8169969638314626,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "bias_performer",
+    "dim_m": 40,
+    "trial": 2,
+    "relerr_kernel": 0.856980768039734,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "bias_performer",
+    "dim_m": 48,
+    "trial": 2,
+    "relerr_kernel": 0.8490530131986649,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "bias_performer",
+    "dim_m": 56,
+    "trial": 2,
+    "relerr_kernel": 0.8501270771366037,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "bias_performer",
+    "dim_m": 64,
+    "trial": 2,
+    "relerr_kernel": 0.8538154897231005,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "bias_performer",
+    "dim_m": 72,
+    "trial": 2,
+    "relerr_kernel": 0.8512205070432709,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "bias_performer",
+    "dim_m": 80,
+    "trial": 2,
+    "relerr_kernel": 0.8487997152199669,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "bias_performer",
+    "dim_m": 16,
+    "trial": 3,
+    "relerr_kernel": 0.8310046206597843,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "bias_performer",
+    "dim_m": 24,
+    "trial": 3,
+    "relerr_kernel": 0.8383376491496928,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "bias_performer",
+    "dim_m": 32,
+    "trial": 3,
+    "relerr_kernel": 0.8348106184882289,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "bias_performer",
+    "dim_m": 40,
+    "trial": 3,
+    "relerr_kernel": 0.8345964229580742,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "bias_performer",
+    "dim_m": 48,
+    "trial": 3,
+    "relerr_kernel": 1.1500754805224902,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "bias_performer",
+    "dim_m": 56,
+    "trial": 3,
+    "relerr_kernel": 1.0733169012250283,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "bias_performer",
+    "dim_m": 64,
+    "trial": 3,
+    "relerr_kernel": 10.752636773406648,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "bias_performer",
+    "dim_m": 72,
+    "trial": 3,
+    "relerr_kernel": 8.327134622837226,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "bias_performer",
+    "dim_m": 80,
+    "trial": 3,
+    "relerr_kernel": 6.6276184933111395,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "bias_performer",
+    "dim_m": 16,
+    "trial": 4,
+    "relerr_kernel": 0.8380708717205914,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "bias_performer",
+    "dim_m": 24,
+    "trial": 4,
+    "relerr_kernel": 0.8404818303852772,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "bias_performer",
+    "dim_m": 32,
+    "trial": 4,
+    "relerr_kernel": 0.8431317705032265,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "bias_performer",
+    "dim_m": 40,
+    "trial": 4,
+    "relerr_kernel": 0.839350739251603,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "bias_performer",
+    "dim_m": 48,
+    "trial": 4,
+    "relerr_kernel": 0.8938706442767272,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "bias_performer",
+    "dim_m": 56,
+    "trial": 4,
+    "relerr_kernel": 0.8773460281856715,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "bias_performer",
+    "dim_m": 64,
+    "trial": 4,
+    "relerr_kernel": 0.8669092445130852,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "bias_performer",
+    "dim_m": 72,
+    "trial": 4,
+    "relerr_kernel": 0.8601901406143271,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gpt2_wikitext",
+    "feature_map": "bias_performer",
+    "dim_m": 80,
+    "trial": 4,
+    "relerr_kernel": 0.8534828612088471,
+    "n_pairs": 32,
+    "layer": null,
+    "head": null
+  }
+]

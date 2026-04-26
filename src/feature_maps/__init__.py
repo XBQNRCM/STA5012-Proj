@@ -1,5 +1,7 @@
 from .base import FeatureMap
 from .performer import (
+    BiasPerformerFeatureMap,
+    CosinePerformerFeatureMap,
     PerformerFeatureMap,
     PowerPerformerFeatureMap,
     RALAPerformerFeatureMap,
@@ -7,6 +9,8 @@ from .performer import (
 )
 
 REGISTRY: dict[str, type[FeatureMap]] = {
+    "bias_performer": BiasPerformerFeatureMap,
+    "cosine_performer": CosinePerformerFeatureMap,
     "performer": PerformerFeatureMap,
     "power_performer": PowerPerformerFeatureMap,
     "rala_performer": RALAPerformerFeatureMap,

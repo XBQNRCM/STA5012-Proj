@@ -147,3 +147,17 @@
   - `performer`: **2.861 → 2.529**
 
 结论：Gaussian out 上 `power_performer(alpha=0.5)` 最好，且随 m 单调下降最稳定；`rala_performer` 次之。
+
+### 追加：`cosine_performer` 快速筛选
+
+新增 `cosine_performer`：先做 L2 归一化，再进入 Performer，即
+`x_norm = x / (||x|| + eps)`。动机是原 Performer 对 Q/K 模长非常敏感，容易在指数随机特征中产生 heavy-tail；cosine 版本保留方向相似度，牺牲模长信息换取稳定性。
+
+快速实验（seed=7, 5 trials, m=16 → 80）：
+
+- Gaussian `RelErr_ker` median：`0.722 → 0.720`，显著优于 Performer。
+- Gaussian `RelErr_out` median：`0.781 → 0.778`，显著优于 Performer。
+- GPT-2 layer10 head6 `RelErr_ker` median：`0.829 → 0.800`，优于 Performer。
+- GPT-2 layer10 head6 `RelErr_out` median：`0.841 → 0.843`，与 Performer 高 m 接近，略优。
+
+结论：`cosine_performer` 是目前最值得继续扩大的新增方法；但它不再严格近似原始 softmax kernel，而是近似角度相似度版本，后续报告中需说明其代价是丢失 norm/sharpness 信息。
