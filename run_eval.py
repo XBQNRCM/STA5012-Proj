@@ -36,20 +36,32 @@ def _build_filename(args, metric: str) -> str:
     trials_str = f"{args.n_trials}trials"
     seed_str = f"seed{args.seed}"
     metric_str = f"metric-{metric}"
+    alpha_str = f"alpha{args.power_alpha:g}"
+    rala_str = f"rala{args.rala_mix:g}"
 
     if args.mode == "gaussian":
         if metric == "ker":
             size_str = f"{args.n_pairs}pairs"
         else:
             size_str = f"{args.n_seq}seq-{args.seq_len}len"
-        parts = [args.mode, maps_str, m_str, size_str, trials_str, seed_str, metric_str]
+        parts = [args.mode, maps_str, m_str, size_str, trials_str, seed_str]
+        if "power_performer" in args.maps:
+            parts.append(alpha_str)
+        if "rala_performer" in args.maps:
+            parts.append(rala_str)
+        parts.append(metric_str)
     else:
         layers = _parse_int_list(args.layers)
         heads = _parse_int_list(args.heads)
         layers_str = "layers-" + ("-".join(str(l) for l in layers) if layers else "all")
         heads_str = "heads-" + ("-".join(str(h) for h in heads) if heads else "all")
         size_str = f"{args.n_docs}docs"
-        parts = [args.mode, maps_str, m_str, size_str, trials_str, seed_str, layers_str, heads_str, metric_str]
+        parts = [args.mode, maps_str, m_str, size_str, trials_str, seed_str, layers_str, heads_str]
+        if "power_performer" in args.maps:
+            parts.append(alpha_str)
+        if "rala_performer" in args.maps:
+            parts.append(rala_str)
+        parts.append(metric_str)
         if metric == "ker":
             parts.append(f"pos{args.token_pos}")
 
@@ -66,6 +78,10 @@ def save_results(results, base_dir: Path, run_name: str) -> Path:
 
 
 def _run_one_metric(args, metric: str, device: torch.device) -> None:
+    feature_kwargs = {
+        "power_alpha": args.power_alpha,
+        "rala_mix": args.rala_mix,
+    }
     if args.mode == "gaussian":
         if metric == "ker":
             results = run_gaussian(
@@ -76,6 +92,7 @@ def _run_one_metric(args, metric: str, device: torch.device) -> None:
                 n_trials=args.n_trials,
                 seed=args.seed,
                 device=device,
+                feature_kwargs=feature_kwargs,
             )
         else:  # out
             results = run_gaussian_output(
@@ -88,6 +105,7 @@ def _run_one_metric(args, metric: str, device: torch.device) -> None:
                 n_trials=args.n_trials,
                 seed=args.seed,
                 device=device,
+                feature_kwargs=feature_kwargs,
             )
     else:  # gpt2
         if metric == "ker":
@@ -104,6 +122,7 @@ def _run_one_metric(args, metric: str, device: torch.device) -> None:
                 layers=_parse_int_list(args.layers),
                 heads=_parse_int_list(args.heads),
                 token_pos=args.token_pos,
+                feature_kwargs=feature_kwargs,
             )
         else:  # out
             results = run_gpt2_output(
@@ -118,6 +137,7 @@ def _run_one_metric(args, metric: str, device: torch.device) -> None:
                 max_length=args.max_length,
                 layers=_parse_int_list(args.layers),
                 heads=_parse_int_list(args.heads),
+                feature_kwargs=feature_kwargs,
             )
     save_results(results, args.output_dir, _build_filename(args, metric))
 
@@ -135,6 +155,8 @@ def main() -> None:
     p.add_argument("--seed", type=int, default=0)
     p.add_argument("--device", default="cpu")
     p.add_argument("--output-dir", type=Path, default=Path("outputs"))
+    p.add_argument("--power-alpha", type=float, default=0.5, help="power_performer 的 alpha，需在 (0,1)")
+    p.add_argument("--rala-mix", type=float, default=0.5, help="rala_performer 的通道混合强度")
     # Gaussian + out 专用
     p.add_argument("--n-seq", type=int, default=32, help="Gaussian+out: 序列条数")
     p.add_argument("--seq-len", type=int, default=256, help="Gaussian+out: 每条序列长度")
