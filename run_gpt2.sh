@@ -1,3 +1,4 @@
+# baseline result for gpt2 setting
 python run_eval.py \
     --mode gpt2 \
     --maps performer \

@@ -1,3 +1,4 @@
+# baseline result for gaussian setting
 python run_eval.py \
     --mode gaussian \
     --maps performer \

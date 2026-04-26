@@ -64,6 +64,7 @@ def _build_phis_prefix(
     n_trials: int,
     seed: int,
     device: torch.device,
+    feature_kwargs: dict | None = None,
 ) -> dict[tuple[int, int, int], FeatureMap]:
     """返回 {(imap, trial, dim_m): phi}。各 (imap, trial) 共用 omega_full[max_m, d]。"""
     max_m = max(dims_m)
@@ -75,7 +76,11 @@ def _build_phis_prefix(
             omega_full = torch.randn(max_m, dim_d, generator=g, device=torch.device("cpu"))
             for dim_m in dims_m:
                 phi = build_feature_map(
-                    map_name, dim_d, dim_m, omega=omega_full[:dim_m]
+                    map_name,
+                    dim_d,
+                    dim_m,
+                    omega=omega_full[:dim_m],
+                    **(feature_kwargs or {}),
                 ).to(device)
                 phis[(imap, trial, dim_m)] = phi
     return phis
@@ -96,9 +101,12 @@ def _eval_loop(
     n_trials: int,
     seed: int,
     device: torch.device,
+    feature_kwargs: dict | None = None,
 ) -> list[EvalResult]:
     n_pairs = q.shape[0]
-    phis = _build_phis_prefix(map_names, dim_d, dims_m, n_trials, seed, device)
+    phis = _build_phis_prefix(
+        map_names, dim_d, dims_m, n_trials, seed, device, feature_kwargs
+    )
     results: list[EvalResult] = []
     for (imap, trial, dim_m), phi in phis.items():
         err = relerr_kernel_pairs(q, k, phi, dim_d)
@@ -117,11 +125,14 @@ def run_gaussian(
     n_trials: int,
     seed: int,
     device: torch.device,
+    feature_kwargs: dict | None = None,
 ) -> list[EvalResult]:
     gen = torch.Generator(device=device)
     gen.manual_seed(seed)
     q, k = sample_qk_gaussian(n_pairs, dim_d, generator=gen, device=device)
-    return _eval_loop("gaussian", q, k, dim_d, map_names, dims_m, n_trials, seed, device)
+    return _eval_loop(
+        "gaussian", q, k, dim_d, map_names, dims_m, n_trials, seed, device, feature_kwargs
+    )
 
 
 def run_gpt2(
@@ -138,6 +149,7 @@ def run_gpt2(
     layers: list[int] | None,
     heads: list[int] | None,
     token_pos: int,
+    feature_kwargs: dict | None = None,
 ) -> list[EvalResult]:
     q, k = collect_qk_gpt2_wikitext(
         model_path=model_path,
@@ -150,7 +162,9 @@ def run_gpt2(
     )
     q = q.to(device=device, dtype=torch.float32)
     k = k.to(device=device, dtype=torch.float32)
-    return _eval_loop("gpt2_wikitext", q, k, dim_d, map_names, dims_m, n_trials, seed, device)
+    return _eval_loop(
+        "gpt2_wikitext", q, k, dim_d, map_names, dims_m, n_trials, seed, device, feature_kwargs
+    )
 
 
 # ---------------------------------------------------------------------------
@@ -169,6 +183,7 @@ def run_gaussian_output(
     n_trials: int,
     seed: int,
     device: torch.device,
+    feature_kwargs: dict | None = None,
 ) -> list[EvalResultOut]:
     gen = torch.Generator(device=device)
     gen.manual_seed(seed)
@@ -176,7 +191,9 @@ def run_gaussian_output(
         n_seq, seq_len, dim_d, dim_v, generator=gen, device=device
     )
     O = exact_attention_output(Q, K, V, dim_d)
-    phis = _build_phis_prefix(map_names, dim_d, dims_m, n_trials, seed, device)
+    phis = _build_phis_prefix(
+        map_names, dim_d, dims_m, n_trials, seed, device, feature_kwargs
+    )
 
     results: list[EvalResultOut] = []
     for (imap, trial, dim_m), phi in phis.items():
@@ -209,9 +226,12 @@ def run_gpt2_output(
     max_length: int,
     layers: list[int] | None,
     heads: list[int] | None,
+    feature_kwargs: dict | None = None,
 ) -> list[EvalResultOut]:
     """对每个 (layer, head) 按 doc 流式累加 ||·||_F^2，避免同时缓存所有 QKV。"""
-    phis = _build_phis_prefix(map_names, dim_d, dims_m, n_trials, seed, device)
+    phis = _build_phis_prefix(
+        map_names, dim_d, dims_m, n_trials, seed, device, feature_kwargs
+    )
 
     # 累加：(imap, trial, dim_m, layer, head) -> [num_sum, den_sum, n_seqs, tot_len]
     acc: dict[tuple[int, int, int, int, int], list[float]] = defaultdict(

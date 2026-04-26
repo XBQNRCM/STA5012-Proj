@@ -56,3 +56,64 @@
 - Gaussian `RelErr_ker` 即使用 1000 trials，数值仍远大于 `RelErr_out`，说明 pair-level kernel MSE 被极端样本主导。
 - GPT-2 `RelErr_ker` 在 1000 trials 下接近 1，但 mean 曲线仍有轻微波动；5000 trials 版本更平滑，建议作为最终报告参考图。
 
+## 2026-04-26
+
+### 本次新增 feature maps
+
+- `scaled_performer`：对输入做逐维经验标准化，再进入 Performer feature。
+- `power_performer (alpha=0.5)`：对输入做幂压缩 `sign(x) * |x|^alpha` 再进入 Performer。
+- `rala_performer (mix=0.5)`：RALA-inspired：`phi_performer(x)` 乘上下文权重 `gamma(x)`，再做轻量通道混合。
+
+### 四组实验汇总（m=16 → 80）
+
+> 说明：下表的 `median`/`mean` 都是直接对 `results.json` 中同一 `(feature_map, dim_m)` 的所有记录聚合。
+> `GPT-2 / out` 的记录包含 25 个 `(layer,head)` 组合与 10 个 trials，总计每个 m 每个 map 为 250 条记录。
+
+#### GPT-2 + WikiText：`RelErr_ker`（1000 docs × 25 heads/layers × 5000 trials，pos=-2）
+
+目录：`outputs/gpt2_performer-scaled_performer-power_performer-rala_performer_m-16-...-80_1000docs_5000trials_seed0_layers-2-4-6-8-10_heads-2-4-6-8-10_alpha0.5_rala0.5_metric-ker_pos-2/`
+
+- **median**：四种 map 在 m=16 与 m=80 上都几乎是 **1 → 1**（到小数点后 6 位仍接近 1）。
+- **mean（m=16 → 80）**：
+  - `scaled_performer`: **1.00003 → 1.00001**（最好）
+  - `rala_performer`: **1.00006 → 1.00005**
+  - `power_performer`: **1.00212 → 1.00025**
+  - `performer`: **1.00090 → 1.00034**
+
+结论：在这个 GPT-2 ker 设定下，所有方法都非常接近 1；`scaled_performer` 的 mean 最低但优势极小（~1e-4 量级）。
+
+#### GPT-2 + WikiText：`RelErr_out`（100 docs × 25 heads/layers × 10 trials）
+
+目录：`outputs/gpt2_performer-scaled_performer-power_performer-rala_performer_m-16-...-80_100docs_10trials_seed42_layers-2-4-6-8-10_heads-2-4-6-8-10_alpha0.5_rala0.5_metric-out/`
+
+- **median（m=16 → 80）**：
+  - `power_performer`: **0.96480 → 0.87103**（最好）
+  - `performer`: **1.00775 → 0.96870**
+  - `scaled_performer`: **1.20869 → 1.11465**
+  - `rala_performer`: **1.24231 → 1.23288**
+
+结论：在 GPT-2 out 上，`power_performer(alpha=0.5)` 明显优于其它 map，并随 m 增大持续下降。
+
+#### Gaussian：`RelErr_ker`（10000 pairs × 5 trials）
+
+目录：`outputs/gaussian_performer-scaled_performer-power_performer-rala_performer_m-16-...-80_10000pairs_5trials_seed0_alpha0.5_rala0.5_metric-ker/`
+
+- **median（m=16 → 80）**：
+  - `rala_performer`: **31.53 → 22.05**（最好）
+  - `power_performer`: **25.20 → 24.78**
+  - `scaled_performer`: **20.78 → 63.04**
+  - `performer`: **56.56 → 344.34**
+
+结论：Gaussian ker 依旧重尾，median 更可靠；在这组实验中 `rala_performer` 的 median 最小且随 m 下降。
+
+#### Gaussian：`RelErr_out`（32 seq × 128 len × 5 trials）
+
+目录：`outputs/gaussian_performer-scaled_performer-power_performer-rala_performer_m-16-...-80_32seq-128len_5trials_seed0_alpha0.5_rala0.5_metric-out/`
+
+- **median（m=16 → 80）**：
+  - `power_performer`: **2.314 → 2.013**（最好）
+  - `rala_performer`: **2.408 → 2.081**
+  - `scaled_performer`: **2.694 → 2.522**
+  - `performer`: **2.861 → 2.529**
+
+结论：Gaussian out 上 `power_performer(alpha=0.5)` 最好，且随 m 单调下降最稳定；`rala_performer` 次之。

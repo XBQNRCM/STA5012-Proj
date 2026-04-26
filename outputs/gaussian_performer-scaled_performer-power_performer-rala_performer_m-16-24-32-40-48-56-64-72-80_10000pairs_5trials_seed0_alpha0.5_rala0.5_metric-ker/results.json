@@ -1,0 +1,1802 @@
+[
+  {
+    "setting": "gaussian",
+    "feature_map": "performer",
+    "dim_m": 16,
+    "trial": 0,
+    "relerr_kernel": 2740908341008685.0,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "performer",
+    "dim_m": 24,
+    "trial": 0,
+    "relerr_kernel": 1219527284955824.0,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "performer",
+    "dim_m": 32,
+    "trial": 0,
+    "relerr_kernel": 686015453879745.6,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "performer",
+    "dim_m": 40,
+    "trial": 0,
+    "relerr_kernel": 439050117643649.2,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "performer",
+    "dim_m": 48,
+    "trial": 0,
+    "relerr_kernel": 305070329448320.56,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "performer",
+    "dim_m": 56,
+    "trial": 0,
+    "relerr_kernel": 342494753484371.06,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "performer",
+    "dim_m": 64,
+    "trial": 0,
+    "relerr_kernel": 262222549269182.38,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "performer",
+    "dim_m": 72,
+    "trial": 0,
+    "relerr_kernel": 207188187018398.78,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "performer",
+    "dim_m": 80,
+    "trial": 0,
+    "relerr_kernel": 1261174593486931.0,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "performer",
+    "dim_m": 16,
+    "trial": 1,
+    "relerr_kernel": 42.40469086965286,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "performer",
+    "dim_m": 24,
+    "trial": 1,
+    "relerr_kernel": 40.892547278425944,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "performer",
+    "dim_m": 32,
+    "trial": 1,
+    "relerr_kernel": 30.536696572925823,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "performer",
+    "dim_m": 40,
+    "trial": 1,
+    "relerr_kernel": 78.2634662079034,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "performer",
+    "dim_m": 48,
+    "trial": 1,
+    "relerr_kernel": 55.18759820788766,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "performer",
+    "dim_m": 56,
+    "trial": 1,
+    "relerr_kernel": 40.83913888201098,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "performer",
+    "dim_m": 64,
+    "trial": 1,
+    "relerr_kernel": 39.479918584681336,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "performer",
+    "dim_m": 72,
+    "trial": 1,
+    "relerr_kernel": 31.41201754179389,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "performer",
+    "dim_m": 80,
+    "trial": 1,
+    "relerr_kernel": 26.495315238925528,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "performer",
+    "dim_m": 16,
+    "trial": 2,
+    "relerr_kernel": 1472.8786901972153,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "performer",
+    "dim_m": 24,
+    "trial": 2,
+    "relerr_kernel": 658.5587117128053,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "performer",
+    "dim_m": 32,
+    "trial": 2,
+    "relerr_kernel": 371.0789428785111,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "performer",
+    "dim_m": 40,
+    "trial": 2,
+    "relerr_kernel": 242.98293807329634,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "performer",
+    "dim_m": 48,
+    "trial": 2,
+    "relerr_kernel": 178.13546291772397,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "performer",
+    "dim_m": 56,
+    "trial": 2,
+    "relerr_kernel": 131.1835379791924,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "performer",
+    "dim_m": 64,
+    "trial": 2,
+    "relerr_kernel": 101.39267025070048,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "performer",
+    "dim_m": 72,
+    "trial": 2,
+    "relerr_kernel": 120.24424040763543,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "performer",
+    "dim_m": 80,
+    "trial": 2,
+    "relerr_kernel": 122.54092192230257,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "performer",
+    "dim_m": 16,
+    "trial": 3,
+    "relerr_kernel": 56.562331022781734,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "performer",
+    "dim_m": 24,
+    "trial": 3,
+    "relerr_kernel": 3709.6671889354516,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "performer",
+    "dim_m": 32,
+    "trial": 3,
+    "relerr_kernel": 2087.192191269513,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "performer",
+    "dim_m": 40,
+    "trial": 3,
+    "relerr_kernel": 1337.0172812166697,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "performer",
+    "dim_m": 48,
+    "trial": 3,
+    "relerr_kernel": 928.6742331107727,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "performer",
+    "dim_m": 56,
+    "trial": 3,
+    "relerr_kernel": 682.46503728222,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "performer",
+    "dim_m": 64,
+    "trial": 3,
+    "relerr_kernel": 533.5990689511206,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "performer",
+    "dim_m": 72,
+    "trial": 3,
+    "relerr_kernel": 422.8970992996214,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "performer",
+    "dim_m": 80,
+    "trial": 3,
+    "relerr_kernel": 344.33742122873656,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "performer",
+    "dim_m": 16,
+    "trial": 4,
+    "relerr_kernel": 4.601617941148618,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "performer",
+    "dim_m": 24,
+    "trial": 4,
+    "relerr_kernel": 5.302984023043906,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "performer",
+    "dim_m": 32,
+    "trial": 4,
+    "relerr_kernel": 3.664571289810827,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "performer",
+    "dim_m": 40,
+    "trial": 4,
+    "relerr_kernel": 49.04785215393902,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "performer",
+    "dim_m": 48,
+    "trial": 4,
+    "relerr_kernel": 34.6634370996907,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "performer",
+    "dim_m": 56,
+    "trial": 4,
+    "relerr_kernel": 41.004618736053075,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "performer",
+    "dim_m": 64,
+    "trial": 4,
+    "relerr_kernel": 31.96065089609737,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "performer",
+    "dim_m": 72,
+    "trial": 4,
+    "relerr_kernel": 1690.070573168583,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "performer",
+    "dim_m": 80,
+    "trial": 4,
+    "relerr_kernel": 1369.0934825697752,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "scaled_performer",
+    "dim_m": 16,
+    "trial": 0,
+    "relerr_kernel": 11.899335675868185,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "scaled_performer",
+    "dim_m": 24,
+    "trial": 0,
+    "relerr_kernel": 5.955272516264955,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "scaled_performer",
+    "dim_m": 32,
+    "trial": 0,
+    "relerr_kernel": 3.990403747198969,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "scaled_performer",
+    "dim_m": 40,
+    "trial": 0,
+    "relerr_kernel": 4.820997158546414,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "scaled_performer",
+    "dim_m": 48,
+    "trial": 0,
+    "relerr_kernel": 5.39427052998109,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "scaled_performer",
+    "dim_m": 56,
+    "trial": 0,
+    "relerr_kernel": 4.161753000961418,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "scaled_performer",
+    "dim_m": 64,
+    "trial": 0,
+    "relerr_kernel": 3.3788858260286845,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "scaled_performer",
+    "dim_m": 72,
+    "trial": 0,
+    "relerr_kernel": 2.862608068685517,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "scaled_performer",
+    "dim_m": 80,
+    "trial": 0,
+    "relerr_kernel": 4.272239262362238,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "scaled_performer",
+    "dim_m": 16,
+    "trial": 1,
+    "relerr_kernel": 7.6437926959941525,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "scaled_performer",
+    "dim_m": 24,
+    "trial": 1,
+    "relerr_kernel": 197.59197178315165,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "scaled_performer",
+    "dim_m": 32,
+    "trial": 1,
+    "relerr_kernel": 145.59374049675392,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "scaled_performer",
+    "dim_m": 40,
+    "trial": 1,
+    "relerr_kernel": 93.43786215461071,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "scaled_performer",
+    "dim_m": 48,
+    "trial": 1,
+    "relerr_kernel": 928.6226282530196,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "scaled_performer",
+    "dim_m": 56,
+    "trial": 1,
+    "relerr_kernel": 688.8469079811645,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "scaled_performer",
+    "dim_m": 64,
+    "trial": 1,
+    "relerr_kernel": 527.5116864439369,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "scaled_performer",
+    "dim_m": 72,
+    "trial": 1,
+    "relerr_kernel": 416.92233688762144,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "scaled_performer",
+    "dim_m": 80,
+    "trial": 1,
+    "relerr_kernel": 343.35624293211725,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "scaled_performer",
+    "dim_m": 16,
+    "trial": 2,
+    "relerr_kernel": 20.78119538652118,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "scaled_performer",
+    "dim_m": 24,
+    "trial": 2,
+    "relerr_kernel": 255.8260158237845,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "scaled_performer",
+    "dim_m": 32,
+    "trial": 2,
+    "relerr_kernel": 145.12451273410744,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "scaled_performer",
+    "dim_m": 40,
+    "trial": 2,
+    "relerr_kernel": 93.39321701564049,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "scaled_performer",
+    "dim_m": 48,
+    "trial": 2,
+    "relerr_kernel": 65.91682087867459,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "scaled_performer",
+    "dim_m": 56,
+    "trial": 2,
+    "relerr_kernel": 48.623120134350444,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "scaled_performer",
+    "dim_m": 64,
+    "trial": 2,
+    "relerr_kernel": 39.339704897617494,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "scaled_performer",
+    "dim_m": 72,
+    "trial": 2,
+    "relerr_kernel": 219.62933917186206,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "scaled_performer",
+    "dim_m": 80,
+    "trial": 2,
+    "relerr_kernel": 179.31347468831237,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "scaled_performer",
+    "dim_m": 16,
+    "trial": 3,
+    "relerr_kernel": 75.2447635790624,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "scaled_performer",
+    "dim_m": 24,
+    "trial": 3,
+    "relerr_kernel": 36.367530976922936,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "scaled_performer",
+    "dim_m": 32,
+    "trial": 3,
+    "relerr_kernel": 22.240264019600385,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "scaled_performer",
+    "dim_m": 40,
+    "trial": 3,
+    "relerr_kernel": 23.64931135433362,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "scaled_performer",
+    "dim_m": 48,
+    "trial": 3,
+    "relerr_kernel": 16.667561326759714,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "scaled_performer",
+    "dim_m": 56,
+    "trial": 3,
+    "relerr_kernel": 13.466315553276825,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "scaled_performer",
+    "dim_m": 64,
+    "trial": 3,
+    "relerr_kernel": 47.671737624089104,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "scaled_performer",
+    "dim_m": 72,
+    "trial": 3,
+    "relerr_kernel": 38.619179487584354,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "scaled_performer",
+    "dim_m": 80,
+    "trial": 3,
+    "relerr_kernel": 31.38725522825154,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "scaled_performer",
+    "dim_m": 16,
+    "trial": 4,
+    "relerr_kernel": 343.0514895851187,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "scaled_performer",
+    "dim_m": 24,
+    "trial": 4,
+    "relerr_kernel": 160.6945498696224,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "scaled_performer",
+    "dim_m": 32,
+    "trial": 4,
+    "relerr_kernel": 94.018760478278,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "scaled_performer",
+    "dim_m": 40,
+    "trial": 4,
+    "relerr_kernel": 72.77891710643227,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "scaled_performer",
+    "dim_m": 48,
+    "trial": 4,
+    "relerr_kernel": 60.04222562723378,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "scaled_performer",
+    "dim_m": 56,
+    "trial": 4,
+    "relerr_kernel": 127.55709809204062,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "scaled_performer",
+    "dim_m": 64,
+    "trial": 4,
+    "relerr_kernel": 97.78194715840418,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "scaled_performer",
+    "dim_m": 72,
+    "trial": 4,
+    "relerr_kernel": 77.73107167220101,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "scaled_performer",
+    "dim_m": 80,
+    "trial": 4,
+    "relerr_kernel": 63.041026836069975,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "power_performer",
+    "dim_m": 16,
+    "trial": 0,
+    "relerr_kernel": 11.814533313300949,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "power_performer",
+    "dim_m": 24,
+    "trial": 0,
+    "relerr_kernel": 26.504852920086595,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "power_performer",
+    "dim_m": 32,
+    "trial": 0,
+    "relerr_kernel": 15.34899918325013,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "power_performer",
+    "dim_m": 40,
+    "trial": 0,
+    "relerr_kernel": 10.274521011901651,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "power_performer",
+    "dim_m": 48,
+    "trial": 0,
+    "relerr_kernel": 8.373205599110983,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "power_performer",
+    "dim_m": 56,
+    "trial": 0,
+    "relerr_kernel": 7.639693161739499,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "power_performer",
+    "dim_m": 64,
+    "trial": 0,
+    "relerr_kernel": 6.242859924849757,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "power_performer",
+    "dim_m": 72,
+    "trial": 0,
+    "relerr_kernel": 5.197696184025565,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "power_performer",
+    "dim_m": 80,
+    "trial": 0,
+    "relerr_kernel": 4.397207918523831,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "power_performer",
+    "dim_m": 16,
+    "trial": 1,
+    "relerr_kernel": 13.072772779638832,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "power_performer",
+    "dim_m": 24,
+    "trial": 1,
+    "relerr_kernel": 8.166549919056344,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "power_performer",
+    "dim_m": 32,
+    "trial": 1,
+    "relerr_kernel": 66.35601323870074,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "power_performer",
+    "dim_m": 40,
+    "trial": 1,
+    "relerr_kernel": 43.19156320215817,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "power_performer",
+    "dim_m": 48,
+    "trial": 1,
+    "relerr_kernel": 31.88706075124127,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "power_performer",
+    "dim_m": 56,
+    "trial": 1,
+    "relerr_kernel": 28.979915929390057,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "power_performer",
+    "dim_m": 64,
+    "trial": 1,
+    "relerr_kernel": 37.948287117371095,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "power_performer",
+    "dim_m": 72,
+    "trial": 1,
+    "relerr_kernel": 30.340838042263414,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "power_performer",
+    "dim_m": 80,
+    "trial": 1,
+    "relerr_kernel": 24.778597949491047,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "power_performer",
+    "dim_m": 16,
+    "trial": 2,
+    "relerr_kernel": 226.19255941227146,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "power_performer",
+    "dim_m": 24,
+    "trial": 2,
+    "relerr_kernel": 101.32586687277457,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "power_performer",
+    "dim_m": 32,
+    "trial": 2,
+    "relerr_kernel": 61.391480354158354,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "power_performer",
+    "dim_m": 40,
+    "trial": 2,
+    "relerr_kernel": 165.12689963064756,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "power_performer",
+    "dim_m": 48,
+    "trial": 2,
+    "relerr_kernel": 182.36247943771232,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "power_performer",
+    "dim_m": 56,
+    "trial": 2,
+    "relerr_kernel": 145.7641498830752,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "power_performer",
+    "dim_m": 64,
+    "trial": 2,
+    "relerr_kernel": 111.7171979291319,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "power_performer",
+    "dim_m": 72,
+    "trial": 2,
+    "relerr_kernel": 88.75594182718721,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "power_performer",
+    "dim_m": 80,
+    "trial": 2,
+    "relerr_kernel": 459.46320408456876,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "power_performer",
+    "dim_m": 16,
+    "trial": 3,
+    "relerr_kernel": 36.0729986590482,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "power_performer",
+    "dim_m": 24,
+    "trial": 3,
+    "relerr_kernel": 194.63789922825777,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "power_performer",
+    "dim_m": 32,
+    "trial": 3,
+    "relerr_kernel": 109.86936116011498,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "power_performer",
+    "dim_m": 40,
+    "trial": 3,
+    "relerr_kernel": 71.1978619930731,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "power_performer",
+    "dim_m": 48,
+    "trial": 3,
+    "relerr_kernel": 49.51959352690525,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "power_performer",
+    "dim_m": 56,
+    "trial": 3,
+    "relerr_kernel": 36.4334519292219,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "power_performer",
+    "dim_m": 64,
+    "trial": 3,
+    "relerr_kernel": 29.13100146905547,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "power_performer",
+    "dim_m": 72,
+    "trial": 3,
+    "relerr_kernel": 23.53465471506073,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "power_performer",
+    "dim_m": 80,
+    "trial": 3,
+    "relerr_kernel": 20.201466663846183,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "power_performer",
+    "dim_m": 16,
+    "trial": 4,
+    "relerr_kernel": 25.20470371428253,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "power_performer",
+    "dim_m": 24,
+    "trial": 4,
+    "relerr_kernel": 181.30364361291677,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "power_performer",
+    "dim_m": 32,
+    "trial": 4,
+    "relerr_kernel": 104.54666705618432,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "power_performer",
+    "dim_m": 40,
+    "trial": 4,
+    "relerr_kernel": 71.14364607607037,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "power_performer",
+    "dim_m": 48,
+    "trial": 4,
+    "relerr_kernel": 50.67329778868271,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "power_performer",
+    "dim_m": 56,
+    "trial": 4,
+    "relerr_kernel": 37.45780814667311,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "power_performer",
+    "dim_m": 64,
+    "trial": 4,
+    "relerr_kernel": 29.0264071674683,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "power_performer",
+    "dim_m": 72,
+    "trial": 4,
+    "relerr_kernel": 23.22067424092992,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "power_performer",
+    "dim_m": 80,
+    "trial": 4,
+    "relerr_kernel": 71.76251446173451,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "rala_performer",
+    "dim_m": 16,
+    "trial": 0,
+    "relerr_kernel": 120.26698100109982,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "rala_performer",
+    "dim_m": 24,
+    "trial": 0,
+    "relerr_kernel": 54.99983377396787,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "rala_performer",
+    "dim_m": 32,
+    "trial": 0,
+    "relerr_kernel": 52.50722773289516,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "rala_performer",
+    "dim_m": 40,
+    "trial": 0,
+    "relerr_kernel": 34.92453349784845,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "rala_performer",
+    "dim_m": 48,
+    "trial": 0,
+    "relerr_kernel": 25.10066225382577,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "rala_performer",
+    "dim_m": 56,
+    "trial": 0,
+    "relerr_kernel": 32.30411349518831,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "rala_performer",
+    "dim_m": 64,
+    "trial": 0,
+    "relerr_kernel": 24.92945443541753,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "rala_performer",
+    "dim_m": 72,
+    "trial": 0,
+    "relerr_kernel": 25.445027786746074,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "rala_performer",
+    "dim_m": 80,
+    "trial": 0,
+    "relerr_kernel": 22.04828523554531,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "rala_performer",
+    "dim_m": 16,
+    "trial": 1,
+    "relerr_kernel": 306.0952362711167,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "rala_performer",
+    "dim_m": 24,
+    "trial": 1,
+    "relerr_kernel": 411.5122055414548,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "rala_performer",
+    "dim_m": 32,
+    "trial": 1,
+    "relerr_kernel": 234.03716426286823,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "rala_performer",
+    "dim_m": 40,
+    "trial": 1,
+    "relerr_kernel": 150.2581710443337,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "rala_performer",
+    "dim_m": 48,
+    "trial": 1,
+    "relerr_kernel": 104.7297668967992,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "rala_performer",
+    "dim_m": 56,
+    "trial": 1,
+    "relerr_kernel": 77.35340450895295,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "rala_performer",
+    "dim_m": 64,
+    "trial": 1,
+    "relerr_kernel": 59.89872551760531,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "rala_performer",
+    "dim_m": 72,
+    "trial": 1,
+    "relerr_kernel": 47.50119986492169,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "rala_performer",
+    "dim_m": 80,
+    "trial": 1,
+    "relerr_kernel": 39.177642002555466,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "rala_performer",
+    "dim_m": 16,
+    "trial": 2,
+    "relerr_kernel": 2.2073587738248475,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "rala_performer",
+    "dim_m": 24,
+    "trial": 2,
+    "relerr_kernel": 1.9948239965561916,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "rala_performer",
+    "dim_m": 32,
+    "trial": 2,
+    "relerr_kernel": 5.309015531539379,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "rala_performer",
+    "dim_m": 40,
+    "trial": 2,
+    "relerr_kernel": 6.93226621062012,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "rala_performer",
+    "dim_m": 48,
+    "trial": 2,
+    "relerr_kernel": 45.33695604743017,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "rala_performer",
+    "dim_m": 56,
+    "trial": 2,
+    "relerr_kernel": 41.657019306334334,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "rala_performer",
+    "dim_m": 64,
+    "trial": 2,
+    "relerr_kernel": 32.241264321523396,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "rala_performer",
+    "dim_m": 72,
+    "trial": 2,
+    "relerr_kernel": 26.06983389018002,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "rala_performer",
+    "dim_m": 80,
+    "trial": 2,
+    "relerr_kernel": 21.240718139462036,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "rala_performer",
+    "dim_m": 16,
+    "trial": 3,
+    "relerr_kernel": 17.309722751160095,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "rala_performer",
+    "dim_m": 24,
+    "trial": 3,
+    "relerr_kernel": 14.84486156243398,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "rala_performer",
+    "dim_m": 32,
+    "trial": 3,
+    "relerr_kernel": 12.306213006176355,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "rala_performer",
+    "dim_m": 40,
+    "trial": 3,
+    "relerr_kernel": 8.358838930638685,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "rala_performer",
+    "dim_m": 48,
+    "trial": 3,
+    "relerr_kernel": 7.671737089837094,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "rala_performer",
+    "dim_m": 56,
+    "trial": 3,
+    "relerr_kernel": 189.2470475452585,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "rala_performer",
+    "dim_m": 64,
+    "trial": 3,
+    "relerr_kernel": 145.12376202073426,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "rala_performer",
+    "dim_m": 72,
+    "trial": 3,
+    "relerr_kernel": 115.82524527115265,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "rala_performer",
+    "dim_m": 80,
+    "trial": 3,
+    "relerr_kernel": 94.45342517908,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "rala_performer",
+    "dim_m": 16,
+    "trial": 4,
+    "relerr_kernel": 31.533202232595833,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "rala_performer",
+    "dim_m": 24,
+    "trial": 4,
+    "relerr_kernel": 17.367678315499933,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "rala_performer",
+    "dim_m": 32,
+    "trial": 4,
+    "relerr_kernel": 12.675678840906732,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "rala_performer",
+    "dim_m": 40,
+    "trial": 4,
+    "relerr_kernel": 55.56352498871944,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "rala_performer",
+    "dim_m": 48,
+    "trial": 4,
+    "relerr_kernel": 38.866616042088744,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "rala_performer",
+    "dim_m": 56,
+    "trial": 4,
+    "relerr_kernel": 30.08549240193148,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "rala_performer",
+    "dim_m": 64,
+    "trial": 4,
+    "relerr_kernel": 29.15273257305667,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "rala_performer",
+    "dim_m": 72,
+    "trial": 4,
+    "relerr_kernel": 25.560265866672687,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "rala_performer",
+    "dim_m": 80,
+    "trial": 4,
+    "relerr_kernel": 21.24297913953283,
+    "n_pairs": 10000,
+    "layer": null,
+    "head": null
+  }
+]
