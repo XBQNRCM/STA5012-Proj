@@ -56,3 +56,36 @@
 - Gaussian `RelErr_ker` 即使用 1000 trials，数值仍远大于 `RelErr_out`，说明 pair-level kernel MSE 被极端样本主导。
 - GPT-2 `RelErr_ker` 在 1000 trials 下接近 1，但 mean 曲线仍有轻微波动；5000 trials 版本更平滑，建议作为最终报告参考图。
 
+## 2026-04-25（5000 trials 补跑）
+
+**做了什么**
+
+1. 补跑 5000 trials 下两种 setting × 两个指标：
+   - Gaussian `RelErr_ker`
+   - Gaussian `RelErr_out`
+   - GPT-2 `RelErr_ker`（复用已有 1000 docs × 5000 trials 高质量结果）
+   - GPT-2 `RelErr_out`
+2. 为四组结果保存 mean 曲线图。
+3. 对 Gaussian `RelErr_ker` 额外保存 median / geomean 曲线，因为 mean 被极端 outlier 主导。
+
+**5000 trials 结果**
+
+| Setting | 指标 | 数据规模 | m=16 | m=80 | 图 |
+|---|---:|---|---:|---:|---|
+| Gaussian | `RelErr_ker` mean | 10000 pairs | 5.674e8 | 2.653e9 | `outputs/gaussian_performer_m-16-24-32-40-48-56-64-72-80_10000pairs_5000trials_seed42_metric-ker/relerr_kernel_vs_dim_mean.png` |
+| Gaussian | `RelErr_ker` median | 10000 pairs | 56.34 | 53.82 | `outputs/gaussian_performer_m-16-24-32-40-48-56-64-72-80_10000pairs_5000trials_seed42_metric-ker/relerr_kernel_vs_dim_median.png` |
+| Gaussian | `RelErr_ker` geomean | 10000 pairs | 81.31 | 77.77 | `outputs/gaussian_performer_m-16-24-32-40-48-56-64-72-80_10000pairs_5000trials_seed42_metric-ker/relerr_kernel_vs_dim_geomean.png` |
+| Gaussian | `RelErr_out` mean | 8 seq × 64 len | 2.2629 | 2.0323 | `outputs/gaussian_performer_m-16-24-32-40-48-56-64-72-80_8seq-64len_5000trials_seed42_metric-out/relerr_output_vs_dim_mean.png` |
+| GPT-2 + WikiText | `RelErr_ker` mean | 1000 docs, layers {2,4,6,8,10}, heads {2,4,6,8,10} | 1.0274 | 1.0017 | `outputs/gpt2_performer_m-16-24-32-40-48-56-64-72-80_1000docs_5000trials_seed42_layers-2-4-6-8-10_heads-2-4-6-8-10_pos-2/relerr_kernel_vs_dim_mean.png` |
+| GPT-2 + WikiText | `RelErr_out` mean | 8 docs, layer 10 head 6 | 1.1937 | 1.0771 | `outputs/gpt2_performer_m-16-24-32-40-48-56-64-72-80_8docs_5000trials_seed42_layers-10_heads-6_metric-out/relerr_output_vs_dim_mean.png` |
+
+**观察**
+
+- Gaussian `RelErr_ker` 的 mean 在 5000 trials 下仍不适合作为主图：采样次数越大，越可能包含更极端的 high-error trial，导致 mean 爆炸。
+- Gaussian `RelErr_ker` 的 median/geomean 稳定在 50-80 量级，说明中心趋势远小于 mean。
+- 两个 `RelErr_out` 曲线都随 m 稳定下降，适合作为 attention linearization 的输出层面主结果。
+- GPT-2 `RelErr_ker` 5000 trials 是当前最平滑的 kernel-level 结果，可作为报告中的 kernel baseline 图。
+
+## 2026-04-26（甘昊）
+
+尝试改进方法中的

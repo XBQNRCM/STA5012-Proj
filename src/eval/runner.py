@@ -3,6 +3,7 @@ from __future__ import annotations
 import json
 import math
 from collections import defaultdict
+from collections.abc import Iterator
 from dataclasses import asdict, dataclass
 
 import torch
@@ -57,17 +58,16 @@ class EvalResultOut:
 # ---------------------------------------------------------------------------
 
 
-def _build_phis_prefix(
+def _iter_phis_prefix(
     map_names: list[str],
     dim_d: int,
     dims_m: list[int],
     n_trials: int,
     seed: int,
     device: torch.device,
-) -> dict[tuple[int, int, int], FeatureMap]:
-    """返回 {(imap, trial, dim_m): phi}。各 (imap, trial) 共用 omega_full[max_m, d]。"""
+) -> Iterator[tuple[int, int, int, FeatureMap]]:
+    """流式产生 (imap, trial, dim_m, phi)。各 (imap, trial) 共用 omega_full[max_m, d]。"""
     max_m = max(dims_m)
-    phis: dict[tuple[int, int, int], FeatureMap] = {}
     for imap, map_name in enumerate(map_names):
         for trial in range(n_trials):
             g = torch.Generator(device="cpu")
@@ -77,8 +77,7 @@ def _build_phis_prefix(
                 phi = build_feature_map(
                     map_name, dim_d, dim_m, omega=omega_full[:dim_m]
                 ).to(device)
-                phis[(imap, trial, dim_m)] = phi
-    return phis
+                yield imap, trial, dim_m, phi
 
 
 # ---------------------------------------------------------------------------
@@ -98,9 +97,10 @@ def _eval_loop(
     device: torch.device,
 ) -> list[EvalResult]:
     n_pairs = q.shape[0]
-    phis = _build_phis_prefix(map_names, dim_d, dims_m, n_trials, seed, device)
     results: list[EvalResult] = []
-    for (imap, trial, dim_m), phi in phis.items():
+    for imap, trial, dim_m, phi in _iter_phis_prefix(
+        map_names, dim_d, dims_m, n_trials, seed, device
+    ):
         err = relerr_kernel_pairs(q, k, phi, dim_d)
         results.append(
             EvalResult(setting, map_names[imap], dim_m, trial, err, n_pairs)
@@ -176,10 +176,11 @@ def run_gaussian_output(
         n_seq, seq_len, dim_d, dim_v, generator=gen, device=device
     )
     O = exact_attention_output(Q, K, V, dim_d)
-    phis = _build_phis_prefix(map_names, dim_d, dims_m, n_trials, seed, device)
 
     results: list[EvalResultOut] = []
-    for (imap, trial, dim_m), phi in phis.items():
+    for imap, trial, dim_m, phi in _iter_phis_prefix(
+        map_names, dim_d, dims_m, n_trials, seed, device
+    ):
         num_sq, den_sq = output_numer_denom_from_exact(Q, K, V, O, phi)
         err = float(math.sqrt(num_sq / max(den_sq, 1e-12)))
         results.append(
@@ -211,8 +212,6 @@ def run_gpt2_output(
     heads: list[int] | None,
 ) -> list[EvalResultOut]:
     """对每个 (layer, head) 按 doc 流式累加 ||·||_F^2，避免同时缓存所有 QKV。"""
-    phis = _build_phis_prefix(map_names, dim_d, dims_m, n_trials, seed, device)
-
     # 累加：(imap, trial, dim_m, layer, head) -> [num_sum, den_sum, n_seqs, tot_len]
     acc: dict[tuple[int, int, int, int, int], list[float]] = defaultdict(
         lambda: [0.0, 0.0, 0, 0]
@@ -231,7 +230,9 @@ def run_gpt2_output(
         v_seq = v_seq.to(device=device, dtype=torch.float32)
         O = exact_attention_output(q_seq, k_seq, v_seq, dim_d)
         seq_len = q_seq.shape[-2]
-        for (imap, trial, dim_m), phi in phis.items():
+        for imap, trial, dim_m, phi in _iter_phis_prefix(
+            map_names, dim_d, dims_m, n_trials, seed, device
+        ):
             num_sq, den_sq = output_numer_denom_from_exact(q_seq, k_seq, v_seq, O, phi)
             entry = acc[(imap, trial, dim_m, li, hi)]
             entry[0] += num_sq
