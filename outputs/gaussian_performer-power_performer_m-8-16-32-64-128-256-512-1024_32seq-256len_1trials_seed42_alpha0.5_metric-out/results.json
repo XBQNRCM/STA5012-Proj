@@ -1,0 +1,178 @@
+[
+  {
+    "setting": "gaussian",
+    "feature_map": "performer",
+    "dim_m": 8,
+    "trial": 0,
+    "relerr_output": 3.3273643250609624,
+    "n_seqs": 32,
+    "seq_len": 256,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "performer",
+    "dim_m": 16,
+    "trial": 0,
+    "relerr_output": 3.31642118621049,
+    "n_seqs": 32,
+    "seq_len": 256,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "performer",
+    "dim_m": 32,
+    "trial": 0,
+    "relerr_output": 3.0588686881796137,
+    "n_seqs": 32,
+    "seq_len": 256,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "performer",
+    "dim_m": 64,
+    "trial": 0,
+    "relerr_output": 3.0260515298658905,
+    "n_seqs": 32,
+    "seq_len": 256,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "performer",
+    "dim_m": 128,
+    "trial": 0,
+    "relerr_output": 2.999141897447782,
+    "n_seqs": 32,
+    "seq_len": 256,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "performer",
+    "dim_m": 256,
+    "trial": 0,
+    "relerr_output": 2.8774280291684873,
+    "n_seqs": 32,
+    "seq_len": 256,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "performer",
+    "dim_m": 512,
+    "trial": 0,
+    "relerr_output": 2.6746559819695377,
+    "n_seqs": 32,
+    "seq_len": 256,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "performer",
+    "dim_m": 1024,
+    "trial": 0,
+    "relerr_output": 2.658570755577687,
+    "n_seqs": 32,
+    "seq_len": 256,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "power_performer",
+    "dim_m": 8,
+    "trial": 0,
+    "relerr_output": 2.8856033531672187,
+    "n_seqs": 32,
+    "seq_len": 256,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "power_performer",
+    "dim_m": 16,
+    "trial": 0,
+    "relerr_output": 2.6154665582735324,
+    "n_seqs": 32,
+    "seq_len": 256,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "power_performer",
+    "dim_m": 32,
+    "trial": 0,
+    "relerr_output": 2.614762773318139,
+    "n_seqs": 32,
+    "seq_len": 256,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "power_performer",
+    "dim_m": 64,
+    "trial": 0,
+    "relerr_output": 2.5335859180881855,
+    "n_seqs": 32,
+    "seq_len": 256,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "power_performer",
+    "dim_m": 128,
+    "trial": 0,
+    "relerr_output": 2.4420169093636264,
+    "n_seqs": 32,
+    "seq_len": 256,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "power_performer",
+    "dim_m": 256,
+    "trial": 0,
+    "relerr_output": 2.176867299076505,
+    "n_seqs": 32,
+    "seq_len": 256,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "power_performer",
+    "dim_m": 512,
+    "trial": 0,
+    "relerr_output": 1.9903018230962768,
+    "n_seqs": 32,
+    "seq_len": 256,
+    "layer": null,
+    "head": null
+  },
+  {
+    "setting": "gaussian",
+    "feature_map": "power_performer",
+    "dim_m": 1024,
+    "trial": 0,
+    "relerr_output": 1.8601520115006636,
+    "n_seqs": 32,
+    "seq_len": 256,
+    "layer": null,
+    "head": null
+  }
+]
